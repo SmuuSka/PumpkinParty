@@ -10,12 +10,14 @@ public class PlayerJoystick : MonoBehaviour
     public GameObject mouse;
     private Vector3 startPosition;
     private Vector2 dragVector;
+    public bool touchEnd;
     private void Update()
-    { 
+    {
         if (Input.touchCount > 0)
         {
+            
             Touch touch = Input.GetTouch(0);
-
+            touchEnd = false;
             // Handle finger movements based on TouchPhase
             switch (touch.phase)
             {
@@ -44,6 +46,8 @@ public class PlayerJoystick : MonoBehaviour
 
                 case TouchPhase.Ended:
                     // Report that the touch has ended when it ends
+                    mouse.transform.position = point.transform.position;
+                    touchEnd = true;
                     Debug.Log("Ending");
                     break;    
             }

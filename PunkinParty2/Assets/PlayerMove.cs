@@ -8,6 +8,10 @@ public class PlayerMove : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(new Vector3(joystick.mouse.transform.position.x, joystick.mouse.transform.position.y, 0f) * Time.deltaTime);
+        if (!joystick.touchEnd)
+        {
+            transform.Translate(new Vector3(joystick.mouse.transform.position.x, joystick.mouse.transform.position.y, 0f) * Time.deltaTime);
+        }
+        
     }
 }
