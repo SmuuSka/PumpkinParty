@@ -6,8 +6,8 @@ using UnityEngine.EventSystems;
 
 public class PlayerJoystick : MonoBehaviour
 {
-    [SerializeField] private GameObject point, mouse;
-
+    [SerializeField] private GameObject point;
+    public GameObject mouse;
     private Vector3 startPosition;
     private Vector2 dragVector;
     private void Update()
