@@ -5,13 +5,23 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     [SerializeField] PlayerJoystick joystick;
+    private Rigidbody2D playerRb;
+    [SerializeField] private float moveSpeed;
 
-    private void Update()
+    private void Start()
+    {
+        playerRb = GetComponent<Rigidbody2D>();
+    }
+    private void FixedUpdate()
     {
         if (!joystick.touchEnd)
         {
-            transform.Translate(new Vector3(joystick.mouse.transform.position.x, joystick.mouse.transform.position.y, 0f) * Time.deltaTime);
+            Move();
         }
-        
+    }
+
+    private void Move()
+    {
+        //playerRb.MovePosition();
     }
 }

@@ -7,15 +7,19 @@ using UnityEngine.EventSystems;
 public class PlayerJoystick : MonoBehaviour
 {
     [SerializeField] private GameObject point;
+    [SerializeField] private Transform target;
     public GameObject mouse;
-    private Vector3 startPosition;
+    public Vector3 startPosition, currentPosition;
     private Vector2 dragVector;
-    public bool touchEnd;
+    public bool touchEnd, goingRight, goingLeft, goingUp, goingDown;
+    public Vector2 moveDirection;
+    private Vector3 velocity = Vector3.zero;
+    public float angle;
     private void Update()
     {
         if (Input.touchCount > 0)
         {
-            
+
             Touch touch = Input.GetTouch(0);
             touchEnd = false;
             // Handle finger movements based on TouchPhase
@@ -24,19 +28,12 @@ public class PlayerJoystick : MonoBehaviour
                 //When a touch has first been detected, change the message and record the starting position
                 case TouchPhase.Began:
                     // Record initial touch position.
-                    Vector2 touchPosition = Input.GetTouch(0).position;
-                    startPosition = Camera.main.ScreenToWorldPoint(touchPosition);
-                    startPosition.z = 0f;
-                    point.transform.position = startPosition;
-                    Debug.Log("Began");
+                    OnStartTouch();
                     break;
 
                 //Determine if the touch is a moving touch
                 case TouchPhase.Moved:
-                    var direction = new Vector3(Input.GetTouch(0).position.x, Input.GetTouch(0).position.y,0f) - startPosition;
-                    Debug.Log(direction.normalized);
-                    
-                    mouse.transform.position = Camera.main.ScreenToWorldPoint(direction);
+                    OnMoveTouch();
                     // Determine direction by comparing the current touch position with the initial one
                     //var direction = point.transform.position - startPosition;
 
@@ -46,11 +43,85 @@ public class PlayerJoystick : MonoBehaviour
 
                 case TouchPhase.Ended:
                     // Report that the touch has ended when it ends
-                    mouse.transform.position = point.transform.position;
-                    touchEnd = true;
-                    Debug.Log("Ending");
-                    break;    
+                    OnEndTouch();
+                    break;
             }
+
         }
+    }
+    private void OnStartTouch()
+    {
+        Vector2 touchPosition = Input.GetTouch(0).position;
+        startPosition = Camera.main.ScreenToWorldPoint(touchPosition);
+        startPosition.z = 0f;
+        point.transform.position = startPosition;
+        //Debug.Log("Began");
+    }
+    private void OnMoveTouch()
+    {
+        Vector2 touchPositionCurrent = new Vector3(Input.GetTouch(0).position.x, Input.GetTouch(0).position.y);
+        currentPosition = Camera.main.ScreenToWorldPoint(touchPositionCurrent);
+        currentPosition.z = 0f;
+        mouse.transform.position = currentPosition;
+
+        angle = Mathf.Atan2(mouse.transform.localPosition.x, mouse.transform.localPosition.y) * Mathf.Rad2Deg;
+
+        Debug.Log(angle);
+
+
+        //var target = new Vector3(Input.GetTouch(0).position.x, Input.GetTouch(0).position.y, 0f) - startPosition;
+        //var newDirection = startDirection + new Vector3(Input.GetTouch(0).position.x, Input.GetTouch(0).position.y, 0f);
+        //var mouseStartPos = new Vector3(mouse.transform.localPosition.x, mouse.transform.localPosition.y,0f);
+        //mouse.transform.position = Camera.main.ScreenToWorldPoint(target);
+
+
+        ////mouse.transform.position = Camera.main.ScreenToWorldPoint(startDirection);
+        //if (mouse.transform.localPosition.x - mouseStartPos.x > 0)
+        //{
+        //    goingRight = true;
+        //    Debug.Log("Going right");
+        //}
+        //if (mouse.transform.localPosition.x - mouseStartPos.x < 0)
+        //{
+        //    goingRight = false;
+        //    goingLeft = true;
+        //    Debug.Log("Going right");
+        //}
+        //if (mouse.transform.localPosition.y - mouseStartPos.y > 0)
+        //{
+        //    goingRight = false;
+        //    goingLeft = false;
+        //    goingUp = true;
+        //    Debug.Log("Going up");
+        //}
+        //if (mouse.transform.localPosition.y - mouseStartPos.y < 0)
+        //{
+        //    goingRight = false;
+        //    goingLeft = false;
+        //    goingUp = false;
+        //    goingDown = true;
+        //    Debug.Log("Going up");
+        //}
+
+        //else if (mouse.transform.position.x > 0)
+        //{
+        //    Debug.Log("Going left");
+        //}
+        //else if (mouse.transform.position.y > 0)
+        //{
+        //    Debug.Log("Going up");
+        //}
+        //else if (mouse.transform.position.y < 0)
+        //{
+        //    Debug.Log("Going down");
+        //}
+        //Debug.Log(mouse.transform.localPosition);
+    }
+
+    private void OnEndTouch()
+    {
+        mouse.transform.position = point.transform.position;
+        touchEnd = true;
+        Debug.Log("Ending");
     }
 }
