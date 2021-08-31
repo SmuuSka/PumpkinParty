@@ -15,13 +15,14 @@ public class PlayerJoystick : MonoBehaviour
     public Vector2 moveDirection;
     private Vector3 velocity = Vector3.zero;
     public float angle;
+
     private void Update()
     {
         if (Input.touchCount > 0)
         {
 
             Touch touch = Input.GetTouch(0);
-            touchEnd = false;
+            
             // Handle finger movements based on TouchPhase
             switch (touch.phase)
             {
@@ -34,6 +35,7 @@ public class PlayerJoystick : MonoBehaviour
                 //Determine if the touch is a moving touch
                 case TouchPhase.Moved:
                     OnMoveTouch();
+                    touchEnd = false;
                     // Determine direction by comparing the current touch position with the initial one
                     //var direction = point.transform.position - startPosition;
 
@@ -48,9 +50,14 @@ public class PlayerJoystick : MonoBehaviour
             }
 
         }
+        else
+        {
+            touchEnd = true;
+        }
     }
     private void OnStartTouch()
     {
+        
         Vector2 touchPosition = Input.GetTouch(0).position;
         startPosition = Camera.main.ScreenToWorldPoint(touchPosition);
         startPosition.z = 0f;
@@ -59,14 +66,27 @@ public class PlayerJoystick : MonoBehaviour
     }
     private void OnMoveTouch()
     {
+
         Vector2 touchPositionCurrent = new Vector3(Input.GetTouch(0).position.x, Input.GetTouch(0).position.y);
         currentPosition = Camera.main.ScreenToWorldPoint(touchPositionCurrent);
         currentPosition.z = 0f;
         mouse.transform.position = currentPosition;
+        var distance = Vector2.Distance(startPosition, currentPosition);
+        if (distance < 0.5f)
+        {
+            return;
+        }
+        else
+        {
+            angle = Mathf.Atan2(mouse.transform.localPosition.x, mouse.transform.localPosition.y) * Mathf.Rad2Deg;
+        }
 
-        angle = Mathf.Atan2(mouse.transform.localPosition.x, mouse.transform.localPosition.y) * Mathf.Rad2Deg;
+        
 
         Debug.Log(angle);
+        Debug.DrawLine(startPosition, currentPosition, Color.green, 5f);
+
+        
 
 
         //var target = new Vector3(Input.GetTouch(0).position.x, Input.GetTouch(0).position.y, 0f) - startPosition;
