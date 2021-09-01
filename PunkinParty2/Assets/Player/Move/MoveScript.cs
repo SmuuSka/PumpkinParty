@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Example : MonoBehaviour
+public class MoveScript : MonoBehaviour
 {
     [SerializeField] private PlayerJoystick joystick;
     [SerializeField] float moveSpeed;

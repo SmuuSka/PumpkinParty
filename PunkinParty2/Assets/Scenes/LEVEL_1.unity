@@ -223,7 +223,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   joystick: {fileID: 1831214337}
   moveSpeed: 0.1
-  m_MoveDirection: 4
 --- !u!50 &252089338
 Rigidbody2D:
   serializedVersion: 4
@@ -232,7 +231,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 252089334}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -556,7 +555,7 @@ GameObject:
   - component: {fileID: 1785910303}
   - component: {fileID: 1785910302}
   m_Layer: 0
-  m_Name: Square
+  m_Name: TouchPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -658,17 +657,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   point: {fileID: 1785910301}
-  target: {fileID: 1367762633}
   touchPositionCurrent: {x: 0, y: 0}
-  mouse: {fileID: 1367762632}
   startPosition: {x: 0, y: 0, z: 0}
   currentPosition: {x: 0, y: 0, z: 0}
+  mouse: {fileID: 1367762632}
   touchEnd: 0
-  goingRight: 0
-  goingLeft: 0
-  goingUp: 0
-  goingDown: 0
-  direction: {x: 0, y: 0}
   distance: 0
   angle: 0
 --- !u!4 &1831214338

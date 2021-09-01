@@ -7,17 +7,21 @@ using UnityEngine.EventSystems;
 public class PlayerJoystick : MonoBehaviour
 {
     [SerializeField] private GameObject point;
-
+    [HideInInspector]
     public Vector2 touchPositionCurrent;
+    [HideInInspector]
     public Vector3 startPosition, currentPosition;
+    [HideInInspector]
     private Vector2 direction;
-
+    [HideInInspector]
     public GameObject mouse;
-
+    [HideInInspector]
     public bool touchEnd;
-    
+    [HideInInspector]
     public float distance;
+    [HideInInspector]
     public float angle;
+    [HideInInspector]
     private float sign = 1;
     private float offset = 0;
 
