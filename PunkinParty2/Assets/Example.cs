@@ -24,10 +24,11 @@ public class Example : MonoBehaviour
     private void FixedUpdate()
     {
         moveSpeed = joystick.distance;
-        m_Rigidbody.velocity = Vector2.right * moveSpeed;
+        m_Rigidbody.velocity = new Vector3(1,0,0) * moveSpeed;
         transform.eulerAngles = new Vector3(0, 0, joystick.angle);
-
         
+
+
     }
 
     //void Start()

@@ -668,6 +668,7 @@ MonoBehaviour:
   goingUp: 0
   goingDown: 0
   direction: {x: 0, y: 0}
+  distance: 0
   angle: 0
 --- !u!4 &1831214338
 Transform:
