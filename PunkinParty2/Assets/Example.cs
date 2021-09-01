@@ -5,6 +5,9 @@ public class Example : MonoBehaviour
 {
     [SerializeField] private PlayerJoystick joystick;
     [SerializeField] float moveSpeed;
+    private Vector2 moveVelocity;
+
+
     Vector3 m_StartPosition, m_StartForce;
     Rigidbody2D m_Rigidbody;
     //Use Enum for easy switching between direction states
@@ -23,12 +26,9 @@ public class Example : MonoBehaviour
 
     private void FixedUpdate()
     {
-        moveSpeed = joystick.distance;
-        m_Rigidbody.velocity = new Vector3(1,0,0) * moveSpeed;
+       
         transform.eulerAngles = new Vector3(0, 0, joystick.angle);
         
-
-
     }
 
     //void Start()

@@ -8,6 +8,9 @@ public class PlayerJoystick : MonoBehaviour
 {
     [SerializeField] private GameObject point;
     [SerializeField] private Transform target;
+
+    public Vector2 touchPositionCurrent;
+
     public GameObject mouse;
     public Vector3 startPosition, currentPosition;
     private Vector2 dragVector;
@@ -72,7 +75,7 @@ public class PlayerJoystick : MonoBehaviour
     private void OnMoveTouch()
     {
 
-        Vector2 touchPositionCurrent = new Vector3(Input.GetTouch(0).position.x, Input.GetTouch(0).position.y);
+        touchPositionCurrent = new Vector3(Input.GetTouch(0).position.x, Input.GetTouch(0).position.y);
         currentPosition = Camera.main.ScreenToWorldPoint(touchPositionCurrent);
         currentPosition.z = 0f;
         mouse.transform.position = currentPosition;
