@@ -182,7 +182,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -222,6 +222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joystick: {fileID: 1831214337}
+  moveSpeed: 1
   m_MoveDirection: 4
 --- !u!50 &252089338
 Rigidbody2D:
@@ -666,7 +667,7 @@ MonoBehaviour:
   goingLeft: 0
   goingUp: 0
   goingDown: 0
-  moveDirection: {x: 0, y: 0}
+  direction: {x: 0, y: 0}
   angle: 0
 --- !u!4 &1831214338
 Transform:

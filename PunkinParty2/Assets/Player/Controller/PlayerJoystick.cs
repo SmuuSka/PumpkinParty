@@ -12,12 +12,17 @@ public class PlayerJoystick : MonoBehaviour
     public Vector3 startPosition, currentPosition;
     private Vector2 dragVector;
     public bool touchEnd, goingRight, goingLeft, goingUp, goingDown;
-    public Vector2 moveDirection;
+    public Vector2 direction;
+    public float distance;
     private Vector3 velocity = Vector3.zero;
     public float angle;
+    private float sign = 1;
+    private float offset = 0;
 
     private void Update()
     {
+
+
         if (Input.touchCount > 0)
         {
 
@@ -71,19 +76,27 @@ public class PlayerJoystick : MonoBehaviour
         currentPosition = Camera.main.ScreenToWorldPoint(touchPositionCurrent);
         currentPosition.z = 0f;
         mouse.transform.position = currentPosition;
-        var distance = Vector2.Distance(startPosition, currentPosition);
+        distance = Vector2.Distance(startPosition, currentPosition);
         if (distance < 0.5f)
         {
             return;
         }
         else
         {
-            angle = Mathf.Atan2(mouse.transform.localPosition.x, mouse.transform.localPosition.y) * Mathf.Rad2Deg;
+            //angle = Mathf.Atan2(mouse.transform.localPosition.x, mouse.transform.localPosition.y) * Mathf.Rad2Deg;
+            direction = mouse.transform.position - startPosition;
+
+            sign = (direction.y >= 0) ? 1 : -1;
+            offset = (sign >= 0) ? 0 : 360;
+
+            angle = Vector2.Angle(Vector2.right, direction) * sign + offset;
+            //Debug.Log(angle);
+
         }
 
         
 
-        Debug.Log(angle);
+        Debug.Log(distance);
         Debug.DrawLine(startPosition, currentPosition, Color.green, 5f);
 
         
