@@ -156,6 +156,7 @@ public class PlayerJoystick : MonoBehaviour
 
     private void OnEndTouch()
     {
+        distance = 0f;
         mouse.transform.position = point.transform.position;
         touchEnd = true;
         Debug.Log("Ending");

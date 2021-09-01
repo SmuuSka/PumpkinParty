@@ -23,11 +23,16 @@ public class Example : MonoBehaviour
         m_Rigidbody = GetComponent<Rigidbody2D>();
         
     }
-
+    private void Update()
+    {
+        moveSpeed = joystick.distance;
+        transform.eulerAngles = new Vector3(0, 0, joystick.angle);
+        transform.Translate(Vector2.right * moveSpeed * Time.deltaTime, Space.Self);
+    }
     private void FixedUpdate()
     {
        
-        transform.eulerAngles = new Vector3(0, 0, joystick.angle);
+        
         
     }
 
