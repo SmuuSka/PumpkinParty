@@ -37,3 +37,4 @@ sysinfo.txt
 *.unitypackage
 PunkinParty2/Logs/AssetImportWorker0.log
 PunkinParty2/Logs/AssetImportWorker0.log
+*.log
