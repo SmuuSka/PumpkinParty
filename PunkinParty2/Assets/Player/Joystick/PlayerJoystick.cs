@@ -34,9 +34,9 @@ public class PlayerJoystick : MonoBehaviour
     {
         if (Input.touchCount > 0)
         {
-
+            
             Touch touch = Input.GetTouch(0);
-
+            Debug.Log(touch.phase);
             // Handle finger movements based on TouchPhase
             switch (touch.phase)
             {
@@ -92,6 +92,7 @@ public class PlayerJoystick : MonoBehaviour
             angle = Vector2.Angle(Vector2.right, direction) * sign + offset;
         }
         Debug.DrawLine(startPosition, currentPosition, Color.green, 5f);
+        Debug.Log(angle);
     }
 
     private void OnEndTouch()
