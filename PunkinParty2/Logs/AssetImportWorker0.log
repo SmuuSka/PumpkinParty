@@ -15,11 +15,11 @@ D:/Peliprojektit/PumpkinParty/PunkinParty2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59233
+61311
 Successfully changed project path to: D:/Peliprojektit/PumpkinParty/PunkinParty2
 D:/Peliprojektit/PumpkinParty/PunkinParty2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 64.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -36,41 +36,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002713 seconds.
+Registered in 0.002208 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 66.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 65.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.895 seconds
+- Completed reload, in  1.921 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003298 seconds.
+Registered in 0.003453 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 66.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.206 seconds
+- Completed reload, in  1.179 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3538 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 155.3 MB.
+System memory in use before: 155.2 MB.
 System memory in use after: 155.3 MB.
 
 Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3970.
-Total: 2.867100 ms (FindLiveObjects: 0.299300 ms CreateObjectMapping: 0.273200 ms MarkObjects: 2.133500 ms  DeleteObjects: 0.160200 ms)
+Total: 2.912100 ms (FindLiveObjects: 0.287900 ms CreateObjectMapping: 0.229700 ms MarkObjects: 2.252200 ms  DeleteObjects: 0.141300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -84,48 +84,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Player/Joystick/PlayerJoystick.cs
-  artifactKey: Guid(0361e6322bd0b0e45a16795ab8c1f735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Joystick/PlayerJoystick.cs using Guid(0361e6322bd0b0e45a16795ab8c1f735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5599324e8e1683b39ef7276fd18ee159') in 0.041763 seconds 
-  Import took 0.047288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008869 seconds.
-  path: Assets/Player/Move/MoveScript.cs
-  artifactKey: Guid(81978c4285a1a2641b3da3b7365f9830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Move/MoveScript.cs using Guid(81978c4285a1a2641b3da3b7365f9830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3392522e3abc5426cb860201761eed') in 0.004308 seconds 
-  Import took 0.009169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005021 seconds.
-  path: Assets/Player/Move
-  artifactKey: Guid(241c023797dfa93489eac83ad462d91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Move using Guid(241c023797dfa93489eac83ad462d91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd07817d3311e184b76ac6869655c2d') in 0.004766 seconds 
-  Import took 0.009663 seconds .
+  path: Assets/Player/Graphics
+  artifactKey: Guid(afcf4daebe0dacd4eb7d0f35ca18b9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics using Guid(afcf4daebe0dacd4eb7d0f35ca18b9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e91615c603ed6eb7716c69c2345b575') in 0.009198 seconds 
+  Import took 0.014409 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003392 seconds.
+Registered in 0.003552 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.161 seconds
+- Completed reload, in  1.033 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.5 MB.
+System memory in use after: 145.6 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3974.
+Total: 2.609100 ms (FindLiveObjects: 0.249100 ms CreateObjectMapping: 0.133100 ms MarkObjects: 2.088100 ms  DeleteObjects: 0.138200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003396 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.066 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 145.6 MB.
 System memory in use after: 145.7 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3974.
-Total: 3.292400 ms (FindLiveObjects: 0.269200 ms CreateObjectMapping: 0.138100 ms MarkObjects: 2.743300 ms  DeleteObjects: 0.140000 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3978.
+Total: 2.746500 ms (FindLiveObjects: 0.303400 ms CreateObjectMapping: 0.271500 ms MarkObjects: 2.066600 ms  DeleteObjects: 0.104100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -137,3 +153,1546 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 52.115233 seconds.
+  path: Assets/Player/Graphics/Witch
+  artifactKey: Guid(83bfeb52bd2062f40b5df6d30b87dca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch using Guid(83bfeb52bd2062f40b5df6d30b87dca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7263a8da8f8750b9ed826a7c3243c606') in 0.008902 seconds 
+  Import took 0.014464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.157915 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationClips
+  artifactKey: Guid(132d89e0cac146049b11b2c25153f4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationClips using Guid(132d89e0cac146049b11b2c25153f4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a12ac6a2318cd290a37a9ae9c16cc8f') in 0.005513 seconds 
+  Import took 0.010602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003898 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationClips
+  artifactKey: Guid(132d89e0cac146049b11b2c25153f4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationClips using Guid(132d89e0cac146049b11b2c25153f4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a12ac6a2318cd290a37a9ae9c16cc8f') in 0.002771 seconds 
+  Import took 0.008237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.768462 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationSprites
+  artifactKey: Guid(8cd428becf5187e4e8e08535e82f285f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationSprites using Guid(8cd428becf5187e4e8e08535e82f285f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ada21498f5b249587ab74048279531') in 0.006247 seconds 
+  Import took 0.011525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.998071 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationSprites/Static
+  artifactKey: Guid(bbb497eb207275249937c475f1389403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationSprites/Static using Guid(bbb497eb207275249937c475f1389403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d21543f540f48cbb380e2b5b3ee37b1') in 0.006295 seconds 
+  Import took 0.011911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069895 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationSprites/Static/witch static00.png
+  artifactKey: Guid(1ab8c3bef1c8d41c2bcaeb963b25c84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationSprites/Static/witch static00.png using Guid(1ab8c3bef1c8d41c2bcaeb963b25c84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6f9f4634116c8bad0aa3cc6d3cc3ee') in 0.121672 seconds 
+  Import took 0.127113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationSprites/Static/witch static06.png
+  artifactKey: Guid(0a91f6ffdd6c74fc2bbe0ca9bcd3b52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationSprites/Static/witch static06.png using Guid(0a91f6ffdd6c74fc2bbe0ca9bcd3b52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad7d6c6b120cfdd73031c0092e35473') in 0.008764 seconds 
+  Import took 0.013943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationSprites/Static/witch static08.png
+  artifactKey: Guid(17eb51429539a497d8f585f27d81c8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationSprites/Static/witch static08.png using Guid(17eb51429539a497d8f585f27d81c8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fec5d73a9f2e0668817f6758fc4fb2') in 0.010102 seconds 
+  Import took 0.016065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationSprites/Static/witch static02.png
+  artifactKey: Guid(c94b2ada7d068424d9b4c20219f862fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationSprites/Static/witch static02.png using Guid(c94b2ada7d068424d9b4c20219f862fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad74513007ecbd9d60dcacf894c74be5') in 0.011458 seconds 
+  Import took 0.016904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationSprites/Static/witch static04.png
+  artifactKey: Guid(4dda1d1e2860448f0802e2032c1e9835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationSprites/Static/witch static04.png using Guid(4dda1d1e2860448f0802e2032c1e9835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a43a85c7c92ef191103045a82be3594') in 0.009140 seconds 
+  Import took 0.014414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationSprites/Static/witch static01.png
+  artifactKey: Guid(146b9431d231f4527aa174d2cb0a0594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationSprites/Static/witch static01.png using Guid(146b9431d231f4527aa174d2cb0a0594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2964e31a6670772fa536606cbd3d1584') in 0.009855 seconds 
+  Import took 0.015202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationSprites/Static/witch static07.png
+  artifactKey: Guid(92d40b9c71eda4dfd83985e7fdc8572e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationSprites/Static/witch static07.png using Guid(92d40b9c71eda4dfd83985e7fdc8572e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735d8d7ce234231869eee9abc4c18433') in 0.011373 seconds 
+  Import took 0.017261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationSprites/Static/witch static03.png
+  artifactKey: Guid(7d6b57cfe45da4c82afec5c97007d3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationSprites/Static/witch static03.png using Guid(7d6b57cfe45da4c82afec5c97007d3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c850b7cdac7ab408e9e55eaceb43a32') in 0.008827 seconds 
+  Import took 0.013960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationSprites/Static/witch static05.png
+  artifactKey: Guid(da137afd2aa944addb4d15be30f7c6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationSprites/Static/witch static05.png using Guid(da137afd2aa944addb4d15be30f7c6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b96db9ad7049cb9d8ece3c85a9128cc') in 0.008773 seconds 
+  Import took 0.014356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.053129 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationSprites/Run E
+  artifactKey: Guid(3ab3d6ea9845de548bfc96b6aa6fdf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationSprites/Run E using Guid(3ab3d6ea9845de548bfc96b6aa6fdf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3604a76df6ec6fca7c7174c00e4eab80') in 0.005252 seconds 
+  Import took 0.010606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061036 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationSprites/Run E/witch run E00.png
+  artifactKey: Guid(6a761b108787f4628931198fbe0822d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationSprites/Run E/witch run E00.png using Guid(6a761b108787f4628931198fbe0822d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be488a279bda3a6b52fed39e7ba6250') in 0.008948 seconds 
+  Import took 0.014303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationSprites/Run E/witch run E02.png
+  artifactKey: Guid(2e8b908b455934eaab9d3589c19fe2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationSprites/Run E/witch run E02.png using Guid(2e8b908b455934eaab9d3589c19fe2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17cc4682f382c55d87fba59f1ca70e9') in 0.008691 seconds 
+  Import took 0.013698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationSprites/Run E/witch run E01.png
+  artifactKey: Guid(c1a8839b406914083af460fe590233d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationSprites/Run E/witch run E01.png using Guid(c1a8839b406914083af460fe590233d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47caff20d18b1a1e6a7a3235ac7e9a2a') in 0.009224 seconds 
+  Import took 0.014409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationSprites/Run E/witch run E03.png
+  artifactKey: Guid(2e35d3710d38c424aa071ab80a02c383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationSprites/Run E/witch run E03.png using Guid(2e35d3710d38c424aa071ab80a02c383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10645bf74d3a923abf2b6d0ac4ce1bf') in 0.011287 seconds 
+  Import took 0.016442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationSprites/Run E/witch run E05.png
+  artifactKey: Guid(ea836e1730ade47a9a1cdc6ff307c4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationSprites/Run E/witch run E05.png using Guid(ea836e1730ade47a9a1cdc6ff307c4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6136007e1833ebb63c082275e0bc89fa') in 0.012132 seconds 
+  Import took 0.017191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Player/Graphics/Witch/AnimationSprites/Run E/witch run E04.png
+  artifactKey: Guid(a8d723aaba3d14c6b908b65490c3ceb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/AnimationSprites/Run E/witch run E04.png using Guid(a8d723aaba3d14c6b908b65490c3ceb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cce973b42af2f63d96e6f262181fc9e') in 0.009483 seconds 
+  Import took 0.014664 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003425 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.004 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.6 MB.
+System memory in use after: 148.7 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3988.
+Total: 2.615100 ms (FindLiveObjects: 0.271700 ms CreateObjectMapping: 0.155400 ms MarkObjects: 2.059200 ms  DeleteObjects: 0.128000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 688.553240 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a71fc26dd018de53ba9f12dd4a0527') in 0.025795 seconds 
+  Import took 0.030964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010524 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a71fc26dd018de53ba9f12dd4a0527') in 0.002869 seconds 
+  Import took 0.008038 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003532 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.992 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.6 MB.
+System memory in use after: 148.7 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3992.
+Total: 2.513100 ms (FindLiveObjects: 0.244200 ms CreateObjectMapping: 0.128300 ms MarkObjects: 1.997200 ms  DeleteObjects: 0.142400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 546.018674 seconds.
+  path: Assets/Tilemaps/New Sprite Atlas.spriteatlas
+  artifactKey: Guid(2d3a29dadb46aa64fbae8e92569878d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/New Sprite Atlas.spriteatlas using Guid(2d3a29dadb46aa64fbae8e92569878d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8893b480177db8c984d042567f4a07f0') in 0.037621 seconds 
+  Import took 0.047813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.255159 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites
+  artifactKey: Guid(9929af9400f062c43b3c1d829a6cafc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites using Guid(9929af9400f062c43b3c1d829a6cafc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9144026d0d1e5232059e78df068f312') in 0.006758 seconds 
+  Import took 0.012217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.998772 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic
+  artifactKey: Guid(90de5eaf498115a4eac323596bb8e8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic using Guid(90de5eaf498115a4eac323596bb8e8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ede2bc603321c453f84b4778769b9e') in 0.005554 seconds 
+  Import took 0.011298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.795524 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Flat
+  artifactKey: Guid(08cd2f4e7502a6b4b9c565b26ef602b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Flat using Guid(08cd2f4e7502a6b4b9c565b26ef602b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02eb67b91fe844b3cdaacb41c59457f') in 0.006337 seconds 
+  Import took 0.011734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078288 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base00.png
+  artifactKey: Guid(2f2819f776232ce4ba6246149cdae7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base00.png using Guid(2f2819f776232ce4ba6246149cdae7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f646a7ea03ff505e64cf8b053e6b2fd9') in 0.034184 seconds 
+  Import took 0.039445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base13.png
+  artifactKey: Guid(9ec90eb11041ca342b40e5a11007edb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base13.png using Guid(9ec90eb11041ca342b40e5a11007edb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3dc2e36a8f15ea0cf84a079c44c059f') in 0.010427 seconds 
+  Import took 0.015248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base05.png
+  artifactKey: Guid(ce2175153a1212143aafc9489e374666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base05.png using Guid(ce2175153a1212143aafc9489e374666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0296d0f12765f63184ab9bb56aee40') in 0.011192 seconds 
+  Import took 0.018397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base16.png
+  artifactKey: Guid(57d28511bb7947c46b922aa7c388987d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base16.png using Guid(57d28511bb7947c46b922aa7c388987d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b95aea4bb40a1e9409a0b0932935a7') in 0.010675 seconds 
+  Import took 0.017101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base06.png
+  artifactKey: Guid(b2816f12715df9845b0905b25ace3bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base06.png using Guid(b2816f12715df9845b0905b25ace3bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1752f6a95c4ff4f726457fff0da861b2') in 0.011865 seconds 
+  Import took 0.018381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base08.png
+  artifactKey: Guid(65ef21b68e79b6e479a4de165d342c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base08.png using Guid(65ef21b68e79b6e479a4de165d342c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86c7d87a6c13c4418be47e29c5763f8') in 0.010489 seconds 
+  Import took 0.016348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base12.png
+  artifactKey: Guid(8ae726b3a5db15e42b4fa7d9afb5f4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base12.png using Guid(8ae726b3a5db15e42b4fa7d9afb5f4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7b13e10d1deac71ea12fefc74468af') in 0.010055 seconds 
+  Import took 0.015752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base04.png
+  artifactKey: Guid(865d28014e800974183ada3b8af65308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base04.png using Guid(865d28014e800974183ada3b8af65308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef27f8d67d7b4cee3d2fcd317cd99781') in 0.012560 seconds 
+  Import took 0.017856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base01.png
+  artifactKey: Guid(75bd1d7d230af774fa5ce4561b1d17a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base01.png using Guid(75bd1d7d230af774fa5ce4561b1d17a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9ca17375e16fffe9179d65235f8450') in 0.010162 seconds 
+  Import took 0.015850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base15.png
+  artifactKey: Guid(4ef307053b56d894997ff3e27cb5e0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base15.png using Guid(4ef307053b56d894997ff3e27cb5e0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b36ada60bdffffe83401014e1701be') in 0.009820 seconds 
+  Import took 0.015303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base14.png
+  artifactKey: Guid(6d7889ac688d79741af6f5d0029c0e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base14.png using Guid(6d7889ac688d79741af6f5d0029c0e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a398ca836843fdadcdf39d0e70ca4e') in 0.013193 seconds 
+  Import took 0.018509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base07.png
+  artifactKey: Guid(1d845397ab1e02b47b5bad303c3e5c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base07.png using Guid(1d845397ab1e02b47b5bad303c3e5c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb51f23447c63c481cc02a3889f9368') in 0.010745 seconds 
+  Import took 0.016125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base02.png
+  artifactKey: Guid(011bfc661668b6f4da5019732a8a5603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base02.png using Guid(011bfc661668b6f4da5019732a8a5603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250f089f504b343957c291240bfa7f22') in 0.010200 seconds 
+  Import took 0.015437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base03.png
+  artifactKey: Guid(2f8535c9ada0c0f4e86cb76dbc453a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base03.png using Guid(2f8535c9ada0c0f4e86cb76dbc453a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffcf7d9cc23c12f6951a0a3baa0ed54') in 0.012056 seconds 
+  Import took 0.017794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base10.png
+  artifactKey: Guid(ddfeb6baa6cd9964c823b676114b7991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base10.png using Guid(ddfeb6baa6cd9964c823b676114b7991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8ff4e539c5052c7db8c9d32c3ae1f1') in 0.010390 seconds 
+  Import took 0.015905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base11.png
+  artifactKey: Guid(86ce14b4e51463c4bb0dc965710655f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base11.png using Guid(86ce14b4e51463c4bb0dc965710655f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306b698b3a8df43c327533d75979f401') in 0.011754 seconds 
+  Import took 0.017268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base09.png
+  artifactKey: Guid(75567ae1240e16d4cb9454853b9232fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base09.png using Guid(75567ae1240e16d4cb9454853b9232fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e12c069ca3126531c62b936deab7b24') in 0.008968 seconds 
+  Import took 0.014383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base11.png
+  artifactKey: Guid(86ce14b4e51463c4bb0dc965710655f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Flat/base11.png using Guid(86ce14b4e51463c4bb0dc965710655f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306b698b3a8df43c327533d75979f401') in 0.006666 seconds 
+  Import took 0.012312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.237441 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised
+  artifactKey: Guid(cd5770f23c4e3eb428244eab07d8e508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised using Guid(cd5770f23c4e3eb428244eab07d8e508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5acb35f5b1a44a6b491b062086f15b') in 0.006284 seconds 
+  Import took 0.011934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044105 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube00.png
+  artifactKey: Guid(c6abcb688c044ce48bde3e87ee7f2a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube00.png using Guid(c6abcb688c044ce48bde3e87ee7f2a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e83e8a616a5e1dc590960c6ae58904') in 0.008932 seconds 
+  Import took 0.014144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube07.png
+  artifactKey: Guid(21647ae4125e2df40868c208e41392b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube07.png using Guid(21647ae4125e2df40868c208e41392b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1d335b0315e01b5531e9979c7a49ae') in 0.011546 seconds 
+  Import took 0.016691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube10.png
+  artifactKey: Guid(3e69af78a5e595643bef3e0ae83758ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube10.png using Guid(3e69af78a5e595643bef3e0ae83758ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147b2c91f613c216e3710434dd06efdf') in 0.013167 seconds 
+  Import took 0.019856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube05.png
+  artifactKey: Guid(5b6a2587afea824479c9b679a3e23d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube05.png using Guid(5b6a2587afea824479c9b679a3e23d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b26ece05389ef9b3f67e4c68dcbaa3d') in 0.010868 seconds 
+  Import took 0.017230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube13.png
+  artifactKey: Guid(c72245417f7c7fe4c92d4d83d83382e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube13.png using Guid(c72245417f7c7fe4c92d4d83d83382e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a68efdc589c90c419ccde890966e17') in 0.009657 seconds 
+  Import took 0.015266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube15.png
+  artifactKey: Guid(a953126102f15964e86671d2f843877f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube15.png using Guid(a953126102f15964e86671d2f843877f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b89cc2849577c7bda126f6ae28e2b3') in 0.011853 seconds 
+  Import took 0.017195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube14.png
+  artifactKey: Guid(f880ee4cf889a2647a4e5a3cf2082e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube14.png using Guid(f880ee4cf889a2647a4e5a3cf2082e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aff96002041e83c9488bf0d5ff98570') in 0.010681 seconds 
+  Import took 0.016081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/slope1.png
+  artifactKey: Guid(42d5534e8eb3f4841bee8c80a80d05da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/slope1.png using Guid(42d5534e8eb3f4841bee8c80a80d05da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6370b6daecdbf1c08f7dc6c186c7c16e') in 0.012386 seconds 
+  Import took 0.018038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube03.png
+  artifactKey: Guid(f7e71c45e55ea7f45a1b3391a8edac67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube03.png using Guid(f7e71c45e55ea7f45a1b3391a8edac67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfaa4bf6613189738d7e853ffc32335') in 0.010667 seconds 
+  Import took 0.016098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube12.png
+  artifactKey: Guid(cb90bf2d2b60f8144aa132e6c64d342c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube12.png using Guid(cb90bf2d2b60f8144aa132e6c64d342c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820c2db87b8ac4f9ba98a4d32e1018d3') in 0.010829 seconds 
+  Import took 0.016470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube06.png
+  artifactKey: Guid(9e265e6350d4e4045933ed6a411e0f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube06.png using Guid(9e265e6350d4e4045933ed6a411e0f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15da5488ca6d648283aa8df8aee09287') in 0.009716 seconds 
+  Import took 0.015192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube11.png
+  artifactKey: Guid(7cb4bbef8a0dd8741a70734bc7d446fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube11.png using Guid(7cb4bbef8a0dd8741a70734bc7d446fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71160c4ac66004553eb64fde6ee1eb91') in 0.009590 seconds 
+  Import took 0.014831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube16.png
+  artifactKey: Guid(2f0f46573aabf774fa8b1869b0653e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube16.png using Guid(2f0f46573aabf774fa8b1869b0653e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4fd00f3a900ad759458379bea65c22') in 0.010584 seconds 
+  Import took 0.015831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube02.png
+  artifactKey: Guid(1942c5d0a5fb9ca4a8f43ed052741ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube02.png using Guid(1942c5d0a5fb9ca4a8f43ed052741ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20257820ce688a53e29debc1d09d6e5') in 0.012302 seconds 
+  Import took 0.018422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube01.png
+  artifactKey: Guid(39cf1e7417ef8f5439004335a2aa242d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube01.png using Guid(39cf1e7417ef8f5439004335a2aa242d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97b33d5cf12f834eb0be7e73a61de02') in 0.010713 seconds 
+  Import took 0.015846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/slope2.png
+  artifactKey: Guid(eb090b6429dd791489ffb8d070685aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/slope2.png using Guid(eb090b6429dd791489ffb8d070685aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cabb6296fa29a659f237ea2e7512d3e') in 0.009146 seconds 
+  Import took 0.015401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube09.png
+  artifactKey: Guid(fc0a7fdf63214554aa5390957b2ecdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube09.png using Guid(fc0a7fdf63214554aa5390957b2ecdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b82ac73300226ac6b11ba56b8acc490') in 0.009887 seconds 
+  Import took 0.015137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube08.png
+  artifactKey: Guid(00ea94a06913fba41aaa0216f8efc325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube08.png using Guid(00ea94a06913fba41aaa0216f8efc325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021e25bf3c5c3ca3b205dfd2f9d40bbd') in 0.009787 seconds 
+  Import took 0.015140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube04.png
+  artifactKey: Guid(ac8b22a52001fe444ab0cd48516af690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Basic/Raised/cube04.png using Guid(ac8b22a52001fe444ab0cd48516af690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70907276a2d8ecb111b1588b19ee82cf') in 0.013615 seconds 
+  Import took 0.019035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.781948 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains
+  artifactKey: Guid(9521046badbc1594e8e8fa03fe5b063a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains using Guid(9521046badbc1594e8e8fa03fe5b063a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38193736a3b06de727285b4b6780d9d6') in 0.005668 seconds 
+  Import took 0.011815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.068978 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Decoration
+  artifactKey: Guid(3e30e8e12916e934bb5421094204f1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Decoration using Guid(3e30e8e12916e934bb5421094204f1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1020cc627876f28b1d9c03b4351ff8eb') in 0.006106 seconds 
+  Import took 0.011372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067428 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Decoration/plains-sliced_63.png
+  artifactKey: Guid(e4a05284ff97e60419331430a50cb219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Decoration/plains-sliced_63.png using Guid(e4a05284ff97e60419331430a50cb219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49820a76cea007c92c10bbaaadbd443') in 0.009263 seconds 
+  Import took 0.014854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Decoration/plains-sliced_65.png
+  artifactKey: Guid(432494848cd5fa4488c8f90069b0982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Decoration/plains-sliced_65.png using Guid(432494848cd5fa4488c8f90069b0982e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4803ce90fdaf6c8a3c1cc10ec5096b51') in 0.010426 seconds 
+  Import took 0.016089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Decoration/plains-sliced_64.png
+  artifactKey: Guid(e0df95e8ce8172145afb5967040ac7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Decoration/plains-sliced_64.png using Guid(e0df95e8ce8172145afb5967040ac7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ea70fa8d1ef98185eef347777a9c87') in 0.014527 seconds 
+  Import took 0.021999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Decoration/plains-sliced_69.png
+  artifactKey: Guid(ec8ccc2cf6da86f4ab9b11f4a2ab3d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Decoration/plains-sliced_69.png using Guid(ec8ccc2cf6da86f4ab9b11f4a2ab3d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457d1db6e216190a773ea57210bb4109') in 0.011328 seconds 
+  Import took 0.016829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Decoration/plains-sliced_74.png
+  artifactKey: Guid(23e19a7533432f44fadd57a590b3b5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Decoration/plains-sliced_74.png using Guid(23e19a7533432f44fadd57a590b3b5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8324438fd769296efd5fd42b00e3926') in 0.012558 seconds 
+  Import took 0.018158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Decoration/plains-sliced_70.png
+  artifactKey: Guid(13effef3774f8a84bb9106d5bba8b185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Decoration/plains-sliced_70.png using Guid(13effef3774f8a84bb9106d5bba8b185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b4107e5fe5df652f7dc13234535768') in 0.010088 seconds 
+  Import took 0.017198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Decoration/plains-sliced_67.png
+  artifactKey: Guid(6199e367306afba4fb2b434ada112692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Decoration/plains-sliced_67.png using Guid(6199e367306afba4fb2b434ada112692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b92a4312b80e12821261bc272c177b9') in 0.010971 seconds 
+  Import took 0.016232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Decoration/plains-sliced_66.png
+  artifactKey: Guid(fc35b99c608814a459c8fcca6569bb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Decoration/plains-sliced_66.png using Guid(fc35b99c608814a459c8fcca6569bb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bf67f3ca33ef972475214f28e6c941') in 0.008608 seconds 
+  Import took 0.014076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Decoration/plains-sliced_68.png
+  artifactKey: Guid(47b5725ff292d4640b9d51ef4c74a00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Decoration/plains-sliced_68.png using Guid(47b5725ff292d4640b9d51ef4c74a00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e169504b664982929ae128cc89e506ec') in 0.009964 seconds 
+  Import took 0.015535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.001529 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat
+  artifactKey: Guid(4e1844b45a0f66f419f09f9ad660dfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat using Guid(4e1844b45a0f66f419f09f9ad660dfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e495a45e3fa60723f994d58b49bb16b') in 0.001896 seconds 
+  Import took 0.009126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102729 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_01.png
+  artifactKey: Guid(684c9a58268e9744bb2dd25b49b78ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_01.png using Guid(684c9a58268e9744bb2dd25b49b78ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2f86d0c83bf6321219c4f69e417e03') in 0.009754 seconds 
+  Import took 0.015312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_10.png
+  artifactKey: Guid(1962779388652fc47a5dfba5a13e0106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_10.png using Guid(1962779388652fc47a5dfba5a13e0106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb329fd677bb0dbef9177c939f812e7') in 0.011299 seconds 
+  Import took 0.016313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_24.png
+  artifactKey: Guid(d42223ea6c5a1b64ea3c5d0423709b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_24.png using Guid(d42223ea6c5a1b64ea3c5d0423709b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14dcf6e556eb6c25b0f3c5f639eff327') in 0.012905 seconds 
+  Import took 0.018814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_04.png
+  artifactKey: Guid(1e506aa101043a4489d18e6260eab976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_04.png using Guid(1e506aa101043a4489d18e6260eab976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6626acb487e751c278834f8b982101f9') in 0.010420 seconds 
+  Import took 0.015798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_35.png
+  artifactKey: Guid(8b0f51b8bcce11840a091c66081afb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_35.png using Guid(8b0f51b8bcce11840a091c66081afb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f58aac30ad047638d0ece0167ad7c29') in 0.012093 seconds 
+  Import took 0.017323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_25.png
+  artifactKey: Guid(f061c2cbd62459249849b5bdeb0d0ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_25.png using Guid(f061c2cbd62459249849b5bdeb0d0ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccaf6b89bbb0c21caa5b756b666c224') in 0.010433 seconds 
+  Import took 0.016104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_33.png
+  artifactKey: Guid(53851950df07bf7489edae238142d644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_33.png using Guid(53851950df07bf7489edae238142d644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031f21c78550a8845b385138fcf99f8b') in 0.016922 seconds 
+  Import took 0.023141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_37.png
+  artifactKey: Guid(c136e63f4d472cb4087d99948c211288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_37.png using Guid(c136e63f4d472cb4087d99948c211288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3e50aee66e21e78a36ab2ce4cf2125') in 0.013368 seconds 
+  Import took 0.019009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_09.png
+  artifactKey: Guid(ea939fe16223a0b4ca960c87688fed50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_09.png using Guid(ea939fe16223a0b4ca960c87688fed50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26a416c87224ada892b4262e24ca811') in 0.009679 seconds 
+  Import took 0.015820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_27.png
+  artifactKey: Guid(63e7ba8403b31f1479b52913048087c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_27.png using Guid(63e7ba8403b31f1479b52913048087c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b64fd68b92e3cd943996eb3609ed19') in 0.011638 seconds 
+  Import took 0.016749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_11.png
+  artifactKey: Guid(d3f1da88a29e6544abd23e2de5b31a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_11.png using Guid(d3f1da88a29e6544abd23e2de5b31a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e90b84dc9938a3bf8bbf06f1ddcd847') in 0.011293 seconds 
+  Import took 0.016542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_38.png
+  artifactKey: Guid(6551e5b0d0ea09e4184e35443b2b8e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_38.png using Guid(6551e5b0d0ea09e4184e35443b2b8e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822a90eb3a0768b9dde0fa77358ccef8') in 0.009205 seconds 
+  Import took 0.014882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_30.png
+  artifactKey: Guid(958b56ffb75d3f7478feee28c6565159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_30.png using Guid(958b56ffb75d3f7478feee28c6565159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609ff7521519f1cabfe65c2e69869661') in 0.010746 seconds 
+  Import took 0.015890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_29.png
+  artifactKey: Guid(35394165b800f3a46b8f387909cb310a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_29.png using Guid(35394165b800f3a46b8f387909cb310a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e5d1086283974d61f12dcaee366abb') in 0.010606 seconds 
+  Import took 0.016238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_02.png
+  artifactKey: Guid(6feaffb95601b4b4aaaafae1786cb932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_02.png using Guid(6feaffb95601b4b4aaaafae1786cb932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb01094df9539a27d7b26edcb0bc2f7a') in 0.014935 seconds 
+  Import took 0.020488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_20.png
+  artifactKey: Guid(076d425e4c09f194b953432a5bca20cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_20.png using Guid(076d425e4c09f194b953432a5bca20cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6956ef0b68baf11b8cb661852263be') in 0.011132 seconds 
+  Import took 0.016452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_22.png
+  artifactKey: Guid(782f51e5a340510498a3204669e8dfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_22.png using Guid(782f51e5a340510498a3204669e8dfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9346b456900cceb66b8b8cf4aeea1c2') in 0.010951 seconds 
+  Import took 0.016153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_07.png
+  artifactKey: Guid(0063ec1e0c65a634d97555494fd14230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_07.png using Guid(0063ec1e0c65a634d97555494fd14230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230b02af52cce84935c47605c1c90edf') in 0.012752 seconds 
+  Import took 0.018079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_13.png
+  artifactKey: Guid(2870f636fc0c02d45a7499c78eb70cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_13.png using Guid(2870f636fc0c02d45a7499c78eb70cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67423c1048123c0fbc305c4cab64034') in 0.009480 seconds 
+  Import took 0.014461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_16.png
+  artifactKey: Guid(853bbc06cd790934d87be5a6bddecd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_16.png using Guid(853bbc06cd790934d87be5a6bddecd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4905cd2fef4cb5ac7ba3a857be827e2') in 0.010120 seconds 
+  Import took 0.015647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_31.png
+  artifactKey: Guid(4886fecd14fbb6147b942159fe2e4d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_31.png using Guid(4886fecd14fbb6147b942159fe2e4d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14e42003342979a92b1b418ad0b6d4b') in 0.010495 seconds 
+  Import took 0.015956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_05.png
+  artifactKey: Guid(a71901f11b48de2459689a91e67f7dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_05.png using Guid(a71901f11b48de2459689a91e67f7dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfac306cdd3369275cc557cc674a4ba7') in 0.009957 seconds 
+  Import took 0.015182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_40.png
+  artifactKey: Guid(ce68154d43b6dd04eaa9b8909ea4bbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_40.png using Guid(ce68154d43b6dd04eaa9b8909ea4bbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f8663dbac78d21f15e682d594c1986') in 0.013032 seconds 
+  Import took 0.018713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_03.png
+  artifactKey: Guid(3bb9662545aa3434baa255bb19d88e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_03.png using Guid(3bb9662545aa3434baa255bb19d88e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4561506b3cbab8f1910eb23f2039b78b') in 0.009861 seconds 
+  Import took 0.015234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_21.png
+  artifactKey: Guid(27b1c5c94d242b5438ff771064e7d0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_21.png using Guid(27b1c5c94d242b5438ff771064e7d0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1573aac8a3873b9b640771fff3bef7') in 0.009374 seconds 
+  Import took 0.014325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_08.png
+  artifactKey: Guid(959684c48051f614a9403cb3fdca8cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_08.png using Guid(959684c48051f614a9403cb3fdca8cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3f876f3ea4f3b45dc0e00cadda548b') in 0.010198 seconds 
+  Import took 0.015406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_39.png
+  artifactKey: Guid(455da817aedab144ea7cfa86b08801b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_39.png using Guid(455da817aedab144ea7cfa86b08801b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79070d3b1275a8b9d1e833f2cb657e5d') in 0.009244 seconds 
+  Import took 0.014410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_06.png
+  artifactKey: Guid(20ba432f5a48c9644bfa97cc455bee96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_06.png using Guid(20ba432f5a48c9644bfa97cc455bee96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d9e3a680040172a133184c1865f987') in 0.013685 seconds 
+  Import took 0.019172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_23.png
+  artifactKey: Guid(8e7bc6983260afb4dabc5be41486dc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_23.png using Guid(8e7bc6983260afb4dabc5be41486dc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9797b0edff07df4aadadcd42862a40f7') in 0.010829 seconds 
+  Import took 0.015872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_34.png
+  artifactKey: Guid(2597bc81197fe7a45af010522f6615cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_34.png using Guid(2597bc81197fe7a45af010522f6615cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd511bf1753c6b60451919e030e084e') in 0.012900 seconds 
+  Import took 0.019479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_17.png
+  artifactKey: Guid(dd285426b28490540b9eaf89ce3f4182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_17.png using Guid(dd285426b28490540b9eaf89ce3f4182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592e9270e0f8dd9d012d8ed4da5b80f2') in 0.008941 seconds 
+  Import took 0.014410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_26.png
+  artifactKey: Guid(705e801e839869443a91fdc08bddad67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_26.png using Guid(705e801e839869443a91fdc08bddad67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9748395b097ee0693391df8f8436478a') in 0.010608 seconds 
+  Import took 0.016232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_14.png
+  artifactKey: Guid(ab453227acb9e594d827b08033411d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_14.png using Guid(ab453227acb9e594d827b08033411d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63da784d7d7484a12f842477c2b0f3cf') in 0.010384 seconds 
+  Import took 0.015493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_28.png
+  artifactKey: Guid(bb2649c0ced558045bad8f7afb0456d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_28.png using Guid(bb2649c0ced558045bad8f7afb0456d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abb13ce5301667b065748f859ae7270') in 0.012156 seconds 
+  Import took 0.017455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_12.png
+  artifactKey: Guid(9486ec60703db824bab9034b5ff4d4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_12.png using Guid(9486ec60703db824bab9034b5ff4d4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9adc0bf695d23420262b79bbbf4c74ed') in 0.010666 seconds 
+  Import took 0.016454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_18.png
+  artifactKey: Guid(d0f8d288ad6debb44b6991c153b8e6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_18.png using Guid(d0f8d288ad6debb44b6991c153b8e6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918dccad656ac237f1a849b9bef18d47') in 0.010627 seconds 
+  Import took 0.016051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_15.png
+  artifactKey: Guid(c3f0b6dec2372bd4394a2827784ac5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_15.png using Guid(c3f0b6dec2372bd4394a2827784ac5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efc3df5bbeb172b1840c4b9f2b2b9df') in 0.014020 seconds 
+  Import took 0.019553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_36.png
+  artifactKey: Guid(f118d6f59c524f14fbb314a1065c65c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_36.png using Guid(f118d6f59c524f14fbb314a1065c65c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c1cea4d92ec930d84c96c84c3e0fd2') in 0.012036 seconds 
+  Import took 0.018021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_19.png
+  artifactKey: Guid(47bc5da5257aeec4c83f3e63e642ea69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_19.png using Guid(47bc5da5257aeec4c83f3e63e642ea69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507c34d288411f4c5526bd27b3d9227e') in 0.010277 seconds 
+  Import took 0.015598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_32.png
+  artifactKey: Guid(590fe3eb668153e44b21e0973c0555c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Flat/plains-sliced_32.png using Guid(590fe3eb668153e44b21e0973c0555c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9faf1be500977140ebf6e5aa3d135bf9') in 0.010986 seconds 
+  Import took 0.017381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.184112 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised
+  artifactKey: Guid(e55b02e24fcc2fe4ba2834738a2e5dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised using Guid(e55b02e24fcc2fe4ba2834738a2e5dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522d2bf4f9dfd5f67e3411e3a1917a99') in 0.001941 seconds 
+  Import took 0.008986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062224 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_41.png
+  artifactKey: Guid(ddba491d794068b46ba646e1efbf32a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_41.png using Guid(ddba491d794068b46ba646e1efbf32a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6370cc6b1e6935f66f65a065f7914dd') in 0.012203 seconds 
+  Import took 0.017873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_56.png
+  artifactKey: Guid(79b777c326641904b9edfb23eb2d55ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_56.png using Guid(79b777c326641904b9edfb23eb2d55ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa9647a85b64432d6dbc4466c02c782') in 0.009755 seconds 
+  Import took 0.015029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_61.png
+  artifactKey: Guid(45af2e01cbe6ba841b3cb80f42b2ca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_61.png using Guid(45af2e01cbe6ba841b3cb80f42b2ca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b458263355f964d1ae05de1cb75393') in 0.012659 seconds 
+  Import took 0.018990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_53.png
+  artifactKey: Guid(ddfdeb7d4a39c4847b48a9885dfb5a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_53.png using Guid(ddfdeb7d4a39c4847b48a9885dfb5a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77c282bbc7c9080a64ca21aec82159d') in 0.010321 seconds 
+  Import took 0.015935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_72.png
+  artifactKey: Guid(a6b9b2546cf107c458e797d96397a937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_72.png using Guid(a6b9b2546cf107c458e797d96397a937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b07c0191a80a7fdaefe6592c51f153') in 0.012441 seconds 
+  Import took 0.018376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_44.png
+  artifactKey: Guid(27af87b3fd5e1e04d8ac6a41d26b3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_44.png using Guid(27af87b3fd5e1e04d8ac6a41d26b3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bf67bf00c815782ad113c0175ea176') in 0.011156 seconds 
+  Import took 0.017635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_58.png
+  artifactKey: Guid(6feb59edc9a9472498998aabbf40ee85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_58.png using Guid(6feb59edc9a9472498998aabbf40ee85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebb1adf4e122168e6ae1da7a0fe01d5') in 0.013128 seconds 
+  Import took 0.019417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_51.png
+  artifactKey: Guid(46e3b9ddebcc3824da5d755980e56fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_51.png using Guid(46e3b9ddebcc3824da5d755980e56fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b940d7b509e0b2c8a07016720600445') in 0.010464 seconds 
+  Import took 0.015482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_55.png
+  artifactKey: Guid(5249d05363536d54ab5e25b8c26019f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_55.png using Guid(5249d05363536d54ab5e25b8c26019f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da90d3b1cbfd91ace612df24412d04d2') in 0.009543 seconds 
+  Import took 0.015033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_60.png
+  artifactKey: Guid(c7f45372f89932f4cafa2227c620c42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_60.png using Guid(c7f45372f89932f4cafa2227c620c42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5954e10f4181d8baf55b06f6206165') in 0.011276 seconds 
+  Import took 0.017157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_42.png
+  artifactKey: Guid(188981420f669284caa96a931b7de9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_42.png using Guid(188981420f669284caa96a931b7de9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31dfa362e7bd4cd9b9a4e1e185e2ecc1') in 0.009875 seconds 
+  Import took 0.015043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_46.png
+  artifactKey: Guid(0b4b04ba48f55a64080d8fbefa52b34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_46.png using Guid(0b4b04ba48f55a64080d8fbefa52b34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60e6e53c42e18c70abfac621ffe391b') in 0.008655 seconds 
+  Import took 0.013758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_43.png
+  artifactKey: Guid(32e921203e689254cbd121cdd3fe73d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_43.png using Guid(32e921203e689254cbd121cdd3fe73d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302409f28905398674d0c9cb6e52853a') in 0.009951 seconds 
+  Import took 0.015075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_54.png
+  artifactKey: Guid(ccbd2d8f216976f4a95374a71a0fe624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_54.png using Guid(ccbd2d8f216976f4a95374a71a0fe624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2976c77c952f791d7e0045cbe3c6e422') in 0.010397 seconds 
+  Import took 0.015886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_47.png
+  artifactKey: Guid(4731543be03881342b2829610a82921a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_47.png using Guid(4731543be03881342b2829610a82921a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d6c7d15292211beb63b19f4d108735') in 0.010209 seconds 
+  Import took 0.016252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_48.png
+  artifactKey: Guid(df3719ff2d9cf7048a0254d8f6414e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_48.png using Guid(df3719ff2d9cf7048a0254d8f6414e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239806e9360f32c584625f52396b50e8') in 0.010184 seconds 
+  Import took 0.015641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_57.png
+  artifactKey: Guid(35e04215fe0a1f6408b4009aea4a6149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_57.png using Guid(35e04215fe0a1f6408b4009aea4a6149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6925cb5389a0fa209524421f2e3e4d27') in 0.009409 seconds 
+  Import took 0.014811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_59.png
+  artifactKey: Guid(4c5d6c26c79b6d546b6b99b422bdb648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_59.png using Guid(4c5d6c26c79b6d546b6b99b422bdb648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc914ceacd275d4d4eb37693e17e1a27') in 0.009476 seconds 
+  Import took 0.014996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_71.png
+  artifactKey: Guid(65f197e0b55d5174081ccf7fb6ac0799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_71.png using Guid(65f197e0b55d5174081ccf7fb6ac0799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2499f182573f4b47f115c98ec3af35a1') in 0.010473 seconds 
+  Import took 0.015951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_49.png
+  artifactKey: Guid(c47c97f5f8772174ea7ce38747f31e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_49.png using Guid(c47c97f5f8772174ea7ce38747f31e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa70588cbcd1da1709feaeb1d995844') in 0.008764 seconds 
+  Import took 0.013920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_45.png
+  artifactKey: Guid(c757761b08f64df4b93244d5ef737b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_45.png using Guid(c757761b08f64df4b93244d5ef737b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0fdeb0c0c531cfa38633ad7e8367ef') in 0.015342 seconds 
+  Import took 0.020912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_52.png
+  artifactKey: Guid(a7b1cbb3da7c77c4fb3f4d6605928741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_52.png using Guid(a7b1cbb3da7c77c4fb3f4d6605928741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ae8610d58adcc58cf2d508b8867b11') in 0.009255 seconds 
+  Import took 0.014815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_50.png
+  artifactKey: Guid(42d35e9566c7fd54da21ae5a4ea24b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_50.png using Guid(42d35e9566c7fd54da21ae5a4ea24b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d50bc716e38302b00de6c70dc48681') in 0.010569 seconds 
+  Import took 0.015818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_62.png
+  artifactKey: Guid(e192bd6fa109e474cab5c4258917e032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Plains/Raised/plains-sliced_62.png using Guid(e192bd6fa109e474cab5c4258917e032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c04996b6ad95c0d31afcbd5ece58d90') in 0.009532 seconds 
+  Import took 0.015122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.225296 seconds.
+  path: Assets/Tilemaps/New Sprite Atlas.spriteatlas
+  artifactKey: Guid(2d3a29dadb46aa64fbae8e92569878d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/New Sprite Atlas.spriteatlas using Guid(2d3a29dadb46aa64fbae8e92569878d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077f7a4afbcd2ba33e08e69bfa93bd1e') in 0.002428 seconds 
+  Import took 0.010262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.203962 seconds.
+  path: Assets/Tilemaps/New Sprite Atlas.spriteatlas
+  artifactKey: Guid(2d3a29dadb46aa64fbae8e92569878d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/New Sprite Atlas.spriteatlas using Guid(2d3a29dadb46aa64fbae8e92569878d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe7bb84619ff5d27af8b0404db778a6') in 0.002110 seconds 
+  Import took 0.007492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049068 seconds.
+  path: Assets/Tilemaps/New Sprite Atlas.spriteatlas
+  artifactKey: Guid(2d3a29dadb46aa64fbae8e92569878d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/New Sprite Atlas.spriteatlas using Guid(2d3a29dadb46aa64fbae8e92569878d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe7bb84619ff5d27af8b0404db778a6') in 0.002101 seconds 
+  Import took 0.007475 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003805 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.7 MB.
+System memory in use after: 148.8 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4001.
+Total: 2.713500 ms (FindLiveObjects: 0.368900 ms CreateObjectMapping: 0.178500 ms MarkObjects: 2.023500 ms  DeleteObjects: 0.141500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003417 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.033 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.8 MB.
+System memory in use after: 148.8 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4005.
+Total: 2.831000 ms (FindLiveObjects: 0.288900 ms CreateObjectMapping: 0.164300 ms MarkObjects: 2.256200 ms  DeleteObjects: 0.120400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003366 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.8 MB.
+System memory in use after: 148.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4009.
+Total: 2.818900 ms (FindLiveObjects: 0.290200 ms CreateObjectMapping: 0.159200 ms MarkObjects: 2.225800 ms  DeleteObjects: 0.142800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004119 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.428 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.8 MB.
+System memory in use after: 148.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4013.
+Total: 3.391100 ms (FindLiveObjects: 0.324400 ms CreateObjectMapping: 0.167600 ms MarkObjects: 2.787500 ms  DeleteObjects: 0.110300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 451.190321 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Desert_Coral.asset
+  artifactKey: Guid(70bb23fb2f08cd8408147b35eb9793bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Desert_Coral.asset using Guid(70bb23fb2f08cd8408147b35eb9793bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3008ebf38792b5286ebb60fbd06676') in 0.028208 seconds 
+  Import took 0.035865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenMountain_RaisedSnow.asset
+  artifactKey: Guid(f84b12e27ceeac749ba15cb2200fbfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenMountain_RaisedSnow.asset using Guid(f84b12e27ceeac749ba15cb2200fbfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64289a0ff9fa86bf4465c75bd758461e') in 0.005859 seconds 
+  Import took 0.011968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenCave_RaisedFloor.asset
+  artifactKey: Guid(3289d0408ed39374e92d96169a3ce996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenCave_RaisedFloor.asset using Guid(3289d0408ed39374e92d96169a3ce996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa805f538238d33c42ad2f316673c82') in 0.005835 seconds 
+  Import took 0.011895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Temple_RaisedStone.asset
+  artifactKey: Guid(3db0b9e7ad952704baa47e26ebf3906e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Temple_RaisedStone.asset using Guid(3db0b9e7ad952704baa47e26ebf3906e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a811a3e960b07a4e1a37d9fd18534d9') in 0.006656 seconds 
+  Import took 0.011673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenMountain_FlatSnow.asset
+  artifactKey: Guid(77c91fc06982639439f4df82d7c5d97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenMountain_FlatSnow.asset using Guid(77c91fc06982639439f4df82d7c5d97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076710bbdb9b550e7d9a51a4375d2f03') in 0.006235 seconds 
+  Import took 0.012142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Desert_FlatSand.asset
+  artifactKey: Guid(fb746cdab0ec8e54cad132ee946dc959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Desert_FlatSand.asset using Guid(fb746cdab0ec8e54cad132ee946dc959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec618ce7b4c0f4e7980e99c18ade19f9') in 0.006263 seconds 
+  Import took 0.013118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Plains_FlatGrass.asset
+  artifactKey: Guid(739d9c76a05e863419d2aa2a25eac230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Plains_FlatGrass.asset using Guid(739d9c76a05e863419d2aa2a25eac230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc4a4107102dadb579661b3bb1f6281') in 0.005431 seconds 
+  Import took 0.012595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenMountain_FlatGround.asset
+  artifactKey: Guid(45008f92726043a4abadf03a81430678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenMountain_FlatGround.asset using Guid(45008f92726043a4abadf03a81430678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59de421d696aa39d604ba92063c405a5') in 0.005687 seconds 
+  Import took 0.011427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Plains_Plants.asset
+  artifactKey: Guid(c6301f103f0aaaa4b8c92f10d50d35d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Plains_Plants.asset using Guid(c6301f103f0aaaa4b8c92f10d50d35d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380ded3cc75c41d50fff6d02a3af4e59') in 0.006123 seconds 
+  Import took 0.011056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Desert_RaisedSand.asset
+  artifactKey: Guid(6be7c6c7786fa7a45afae2d6002cbcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Desert_RaisedSand.asset using Guid(6be7c6c7786fa7a45afae2d6002cbcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6471468f079f153cd0c646db845653c1') in 0.007070 seconds 
+  Import took 0.013639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Temple_RaisedBlueStone.asset
+  artifactKey: Guid(7bf281396c092e441a872b432e8b73c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Temple_RaisedBlueStone.asset using Guid(7bf281396c092e441a872b432e8b73c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c800be744295ddea9deb83ebcb444c9') in 0.006909 seconds 
+  Import took 0.012213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenCave_Coral.asset
+  artifactKey: Guid(bf438c60cdb63bb49b537bcded69beaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_FrozenCave_Coral.asset using Guid(bf438c60cdb63bb49b537bcded69beaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb34cc6ed592f17102e7675195bf69da') in 0.006125 seconds 
+  Import took 0.011708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Temple_FlatStone.asset
+  artifactKey: Guid(78c5e35c4336d2146ab0a4ce7b44ce14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Temple_FlatStone.asset using Guid(78c5e35c4336d2146ab0a4ce7b44ce14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4eef4ab833a421cb83972dcdf38d13') in 0.007198 seconds 
+  Import took 0.012762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Plains_RaisedGrass.asset
+  artifactKey: Guid(1e3819d62e6f6b74eb55efd9b7862080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Plains_RaisedGrass.asset using Guid(1e3819d62e6f6b74eb55efd9b7862080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273e1f5a9bb07e9b6c96fd3eddb4e216') in 0.006442 seconds 
+  Import took 0.011742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Desert_Planks.asset
+  artifactKey: Guid(f089279c83143f8418773c6b22439753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/RuleTiles/RandomTiles/RandomTile_Desert_Planks.asset using Guid(f089279c83143f8418773c6b22439753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b489b73897e9e4ae56c7781c3783b6df') in 0.006116 seconds 
+  Import took 0.011437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.755489 seconds.
+  path: Assets/Tilemaps/Isometric/Sprites/Temple
+  artifactKey: Guid(2830be0c64a910a4caa2a69cf81fc515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemaps/Isometric/Sprites/Temple using Guid(2830be0c64a910a4caa2a69cf81fc515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe8dba8e23ee526698d76dced70099f') in 0.007224 seconds 
+  Import took 0.012350 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003776 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.8 MB.
+System memory in use after: 148.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4017.
+Total: 2.611200 ms (FindLiveObjects: 0.261600 ms CreateObjectMapping: 0.135800 ms MarkObjects: 2.030800 ms  DeleteObjects: 0.182200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.6 MB.
+System memory in use after: 82.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4019.
+Total: 3.251200 ms (FindLiveObjects: 0.258200 ms CreateObjectMapping: 0.136000 ms MarkObjects: 2.714900 ms  DeleteObjects: 0.141100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4098.857063 seconds.
+  path: Assets/Player/Graphics/Witch/WitchController.controller
+  artifactKey: Guid(96400a5b745e640bbbdd72763b2beb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Graphics/Witch/WitchController.controller using Guid(96400a5b745e640bbbdd72763b2beb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159874bea69278929120a7eab452ce47') in 0.028156 seconds 
+  Import took 0.033803 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
