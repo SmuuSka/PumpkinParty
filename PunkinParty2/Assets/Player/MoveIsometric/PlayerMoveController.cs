@@ -19,11 +19,10 @@ public class PlayerMoveController : MonoBehaviour
     void FixedUpdate()
     {
         Vector2 currentPos = playerRb.position;
-        float horizontalInput = Input.GetAxisRaw("Horizontal");
-        float verticalInput = Input.GetAxisRaw("Vertical");
-
-        Vector2 inputVector = new Vector2(horizontalInput, verticalInput);
-
+        //float horizontalInput = Input.GetAxisRaw("Horizontal");
+        //float verticalInput = Input.GetAxisRaw("Vertical");
+        Vector2 inputVector = new Vector2(joystick.horizontalInput,joystick.verticalInput);
+        Debug.Log(inputVector);
         //transform.eulerAngles = new Vector3(0, 0, joystick.angle);
         //transform.Translate(Vector2.right * movementSpeed * Time.deltaTime, Space.Self);
 
