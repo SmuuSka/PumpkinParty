@@ -99,43 +99,43 @@ public class PlayerJoystick : MonoBehaviour
                 verticalInput = 0;
                 //Debug.Log("East");
             }
-            if (angle > 22.5 && angle < 67.5f)
+            else if (angle > 22.5 && angle < 67.5f)
             {
                 horizontalInput = 1;
                 verticalInput = 1;
                 //Debug.Log("North East");
             }
-            if (angle > 67.5f && angle < 112.5f)
+            else if (angle > 67.5f && angle < 112.5f)
             {
                 horizontalInput = 0;
                 verticalInput = 1;
                 //Debug.Log("North");
             }
-            if (angle > 112.5f && angle < 157.5f)
+            else if (angle > 112.5f && angle < 157.5f)
             {
                 horizontalInput = -1;
                 verticalInput = 1;
                 //Debug.Log("North West");
             }
-            if (angle > 157.5f && angle < 202.5f)
+            else if (angle > 157.5f && angle < 202.5f)
             {
                 horizontalInput = -1;
                 verticalInput = 0;
                 //Debug.Log("West");
             }
-            if (angle > 202.5f && angle < 247.5f)
+            else if (angle > 202.5f && angle < 247.5f)
             {
                 horizontalInput = -1;
                 verticalInput = -1;
                 //Debug.Log("South West");
             }
-            if (angle > 247.5f && angle < 292.5f)
+            else if (angle > 247.5f && angle < 292.5f)
             {
                 horizontalInput = 0;
                 verticalInput = -1;
                 //Debug.Log("South");
             }
-            if (angle > 292.5f && angle < 337.5f)
+            else if (angle > 292.5f && angle < 337.5f)
             {
                 horizontalInput = 1;
                 verticalInput = -1;
