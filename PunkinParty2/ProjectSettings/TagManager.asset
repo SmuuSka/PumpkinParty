@@ -41,8 +41,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 842329865
+    locked: 0
   - name: UP_1
     uniqueID: 105707617
+    locked: 0
+  - name: MapCollider
+    uniqueID: 2140677891
     locked: 0
   - name: Player
     uniqueID: 344203681
