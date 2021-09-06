@@ -38,7 +38,7 @@ public class PlayerJoystick : MonoBehaviour
         {
             
             Touch touch = Input.GetTouch(0);
-            Debug.Log(touch.phase);
+            //Debug.Log(touch.phase);
             // Handle finger movements based on TouchPhase
             switch (touch.phase)
             {
