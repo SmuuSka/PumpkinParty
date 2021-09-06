@@ -26,10 +26,12 @@ public class PlayerJoystick : MonoBehaviour
     private float offset = 0;
     public int horizontalInput;
     public int verticalInput;
+    private float offsetMouse;
 
     private void Update()
     {
         DetectedTouch();
+        
     }
 
     private void DetectedTouch()
@@ -50,6 +52,8 @@ public class PlayerJoystick : MonoBehaviour
                 //Determine if the touch is a moving touch
                 case TouchPhase.Moved:
                     OnMoveTouch();
+                    Mouse();
+
                     touchEnd = false;
                     break;
 
@@ -143,6 +147,7 @@ public class PlayerJoystick : MonoBehaviour
             }
         }
         Debug.DrawLine(startPosition, currentPosition, Color.green, 5f);
+        
     }
 
     private void OnEndTouch()
@@ -152,6 +157,16 @@ public class PlayerJoystick : MonoBehaviour
         distance = 0f;
         mouse.transform.position = point.transform.position;
         touchEnd = true;
+        
+    }
+
+    private void Mouse()
+    {
+        if (distance > 0.5f)
+        {
+            startPosition = Vector2.MoveTowards(startPosition, mouse.transform.position, 5f);
+            point.transform.position = startPosition;
+        }
         
     }
 }
