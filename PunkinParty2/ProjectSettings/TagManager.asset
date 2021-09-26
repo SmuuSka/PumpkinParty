@@ -47,6 +47,9 @@ TagManager:
   - name: UP_1
     uniqueID: 105707617
     locked: 0
+  - name: UP_2
+    uniqueID: 4220469645
+    locked: 0
   - name: MapCollider
     uniqueID: 2140677891
     locked: 0
