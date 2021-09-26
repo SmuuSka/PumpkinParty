@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PlayerMoveController : MonoBehaviour
 {
-    
-    [SerializeField] private PlayerJoystick joystick;
+
+    //[SerializeField] private PlayerJoystick joystick; vanha
+    [SerializeField] private Joystick joystick;
     [SerializeField] private float movementSpeed = 1f;
 
     private IsometricCharacterRenderer isoRenderer;
@@ -29,8 +30,11 @@ public class PlayerMoveController : MonoBehaviour
             Vector2 currentPos = playerRb.position;
             //float horizontalInput = Input.GetAxisRaw("Horizontal");
             //float verticalInput = Input.GetAxisRaw("Vertical");
-            var inputH = joystick.horizontalInput;
-            var inputV = joystick.verticalInput;
+            //var inputH = joystick.horizontalInput; Vanha
+            //var inputV = joystick.verticalInput; Vanha
+            var inputH = joystick.Horizontal;
+            var inputV = joystick.Vertical;
+
             if (inputH != 0 && inputV != 0)
             {
                 float inputVer = (float)inputV / 2;

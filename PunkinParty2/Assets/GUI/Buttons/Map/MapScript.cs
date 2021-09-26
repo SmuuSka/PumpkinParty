@@ -8,11 +8,13 @@ public class MapScript : MonoBehaviour
     [SerializeField] private GameObject map;
     [SerializeField] private Button mapButtonOn, mapButtonOff;
     [SerializeField] private GameObject playerRefe;
+    [SerializeField] private GameObject joystick;
 
 
     private void Awake()
     {
         mapButtonOff.gameObject.SetActive(false);
+        joystick.SetActive(true);
     }
 
     private void Update()
@@ -24,6 +26,7 @@ public class MapScript : MonoBehaviour
 
     private void MapOn()
     {
+        joystick.SetActive(false);
         map.SetActive(true);
         mapButtonOn.gameObject.SetActive(false);
         mapButtonOff.gameObject.SetActive(true);
@@ -31,6 +34,7 @@ public class MapScript : MonoBehaviour
     }
     private void MapOff()
     {
+        joystick.SetActive(true);
         map.SetActive(false);
         mapButtonOn.gameObject.SetActive(true);
         mapButtonOff.gameObject.SetActive(false);
