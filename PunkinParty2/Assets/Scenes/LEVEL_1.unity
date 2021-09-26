@@ -1693,6 +1693,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5506890269885282888, guid: 4ec0ee96377fe544e8b44ce9a303e3b5, type: 3}
+      propertyPath: m_UpscaleRT
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506890269885282998, guid: 4ec0ee96377fe544e8b44ce9a303e3b5, type: 3}
+      propertyPath: orthographic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506890269885282998, guid: 4ec0ee96377fe544e8b44ce9a303e3b5, type: 3}
+      propertyPath: orthographic size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506890269885282998, guid: 4ec0ee96377fe544e8b44ce9a303e3b5, type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506890269885282998, guid: 4ec0ee96377fe544e8b44ce9a303e3b5, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506890269885282998, guid: 4ec0ee96377fe544e8b44ce9a303e3b5, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506890269885282998, guid: 4ec0ee96377fe544e8b44ce9a303e3b5, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5506890270176226122, guid: 4ec0ee96377fe544e8b44ce9a303e3b5, type: 3}
       propertyPath: m_RootOrder
       value: 4
