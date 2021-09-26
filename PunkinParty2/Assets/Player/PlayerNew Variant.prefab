@@ -97,7 +97,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5506890270176226231, guid: 4ec0ee96377fe544e8b44ce9a303e3b5, type: 3}
       propertyPath: m_Name
-      value: PlayerNew
+      value: PlayerNew Variant
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5506890270176226230, guid: 4ec0ee96377fe544e8b44ce9a303e3b5, type: 3}
