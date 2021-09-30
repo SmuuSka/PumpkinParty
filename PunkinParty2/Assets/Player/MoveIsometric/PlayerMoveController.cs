@@ -10,7 +10,7 @@ public class PlayerMoveController : MonoBehaviour
     [SerializeField] private float movementSpeed = 1f;
 
     private IsometricCharacterRenderer isoRenderer;
-    private Rigidbody2D playerRb;
+    public Rigidbody2D playerRb;
 
     public Vector2 movement;
     private Vector2 inputVector;
