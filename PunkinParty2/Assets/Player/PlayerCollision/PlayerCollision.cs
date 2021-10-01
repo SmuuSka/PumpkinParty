@@ -12,15 +12,33 @@ public class PlayerCollision : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other && playerHealth.health > 0)
+        if (other.tag == "Enemy")
         {
-
+            TakeDamage();
+        }
+        else if (other.tag == "Health")
+        {
+            MoreHealth();
+        }
+    }
+    private void TakeDamage()
+    {
+        if (playerHealth.health > 0)
+        {
             candleLight.pointLightOuterRadius -= 5f;
             playerHealth.health -= 1;
         }
         else
         {
             Debug.Log("Youre dead");
+        }
+    }
+    private void MoreHealth()
+    {
+        if (playerHealth.health > 0 && playerHealth.health < 3)
+        {
+            playerHealth.health += 1;
+            candleLight.pointLightOuterRadius += 5f;
         }
     }
 }

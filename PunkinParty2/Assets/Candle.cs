@@ -10,29 +10,39 @@ public class Candle : MonoBehaviour
 
     private void Start()
     {
-        health = 2;
-
+        health = 3;
     }
 
     private void Update()
     {
-        if (health == 2)
+        Health();
+    }
+
+    public void Health()
+    {
+        if (health == 3)
         {
             candleIcons[0].enabled = true;
             candleIcons[1].enabled = false;
             candleIcons[2].enabled = false;
         }
-        else if (health == 1)
+        else if (health == 2)
         {
             candleIcons[0].enabled = false;
             candleIcons[1].enabled = true;
             candleIcons[2].enabled = false;
         }
-        else if (health == 0)
+        else if (health == 1)
         {
             candleIcons[0].enabled = false;
             candleIcons[1].enabled = false;
             candleIcons[2].enabled = true;
+        }
+        else if (health == 0)
+        {
+            candleIcons[0].enabled = false;
+            candleIcons[1].enabled = false;
+            candleIcons[2].enabled = false;
         }
     }
 
