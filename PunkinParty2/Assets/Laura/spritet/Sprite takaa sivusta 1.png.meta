@@ -1,7 +1,28 @@
 fileFormatVersion: 2
 guid: 8f5ab7aebaab0f847bfacc2cdfa8064f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5219109787984457454
+    second: Sprite takaa sivusta 1_0
+  - first:
+      213: 3224256856423683556
+    second: Sprite takaa sivusta 1_1
+  - first:
+      213: -8688980979663521659
+    second: Sprite takaa sivusta 1_2
+  - first:
+      213: 159114050158813239
+    second: Sprite takaa sivusta 1_3
+  - first:
+      213: -7115453860649585683
+    second: Sprite takaa sivusta 1_4
+  - first:
+      213: 746029615654914773
+    second: Sprite takaa sivusta 1_5
+  - first:
+      213: -8884758018307983380
+    second: Sprite takaa sivusta 1_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +110,154 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Sprite takaa sivusta 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 117
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeee39c33b00e6840800000000000000
+      internalID: 5219109787984457454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite takaa sivusta 1_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 3
+        width: 117
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e550cf278cdebc20800000000000000
+      internalID: 3224256856423683556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite takaa sivusta 1_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 9
+        width: 118
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588b70fc5d98a6780800000000000000
+      internalID: -8688980979663521659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite takaa sivusta 1_3
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2
+        width: 118
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7306d76b269453200800000000000000
+      internalID: 159114050158813239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite takaa sivusta 1_4
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 117
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3bc4cb964d04d90800000000000000
+      internalID: -7115453860649585683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite takaa sivusta 1_5
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 19
+        width: 118
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da48099bfd6a5a00800000000000000
+      internalID: 746029615654914773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite takaa sivusta 1_6
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 6
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7f273e7aff2b480800000000000000
+      internalID: -8884758018307983380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

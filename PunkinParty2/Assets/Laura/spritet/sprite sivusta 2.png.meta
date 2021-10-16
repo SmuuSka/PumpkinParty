@@ -1,7 +1,22 @@
 fileFormatVersion: 2
 guid: d70ceddd3e9c85341bfc82f1650b3e27
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6057208443783394798
+    second: sprite sivusta 2_0
+  - first:
+      213: 7608278968501938186
+    second: sprite sivusta 2_1
+  - first:
+      213: 2692135083017360486
+    second: sprite sivusta 2_2
+  - first:
+      213: 7493494704470122394
+    second: sprite sivusta 2_3
+  - first:
+      213: -3829232312462223978
+    second: sprite sivusta 2_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +104,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sprite sivusta 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 123
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5b436bcf68f0450800000000000000
+      internalID: 6057208443783394798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sivusta 2_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 4
+        width: 123
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0822a55969069960800000000000000
+      internalID: 7608278968501938186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sivusta 2_2
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 4
+        width: 123
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664dd9e28926c5520800000000000000
+      internalID: 2692135083017360486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sivusta 2_3
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 4
+        width: 123
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f56324bbd3ef760800000000000000
+      internalID: 7493494704470122394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sivusta 2_4
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 4
+        width: 123
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695dd3dff75dbdac0800000000000000
+      internalID: -3829232312462223978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

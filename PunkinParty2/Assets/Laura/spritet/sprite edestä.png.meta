@@ -1,7 +1,22 @@
 fileFormatVersion: 2
 guid: 5476d0688d9327e428c19eaec949762a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3607615921798283366
+    second: "sprite edest\xE4_0"
+  - first:
+      213: -7285459847167791801
+    second: "sprite edest\xE4_1"
+  - first:
+      213: 4464463842362825656
+    second: "sprite edest\xE4_2"
+  - first:
+      213: 606242420057232691
+    second: "sprite edest\xE4_3"
+  - first:
+      213: -4067497137438369391
+    second: "sprite edest\xE4_4"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +104,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "sprite edest\xE4_0"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 108
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f7b2fde6c2fedc0800000000000000
+      internalID: -3607615921798283366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sprite edest\xE4_1"
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 2
+        width: 108
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d21387ed8d4ea90800000000000000
+      internalID: -7285459847167791801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sprite edest\xE4_2"
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 3
+        width: 108
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb9c9cf536f4fd30800000000000000
+      internalID: 4464463842362825656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sprite edest\xE4_3"
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 2
+        width: 108
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335d84fd44ec96800800000000000000
+      internalID: 606242420057232691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "sprite edest\xE4_4"
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 4
+        width: 108
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199511e67e85d87c0800000000000000
+      internalID: -4067497137438369391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

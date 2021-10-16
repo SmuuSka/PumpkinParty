@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: d5ae12a079cd44e419b1c3af95238109
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -855231047471489811
+    second: sprite takaa_0
+  - first:
+      213: -1508135189225084394
+    second: sprite takaa_1
+  - first:
+      213: 680583817726324688
+    second: sprite takaa_2
+  - first:
+      213: -8764304269200024149
+    second: sprite takaa_3
+  - first:
+      213: -5184961785435022713
+    second: sprite takaa_4
+  - first:
+      213: -5376305933358175782
+    second: sprite takaa_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +107,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sprite takaa_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 115
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec939eb4eb9124f0800000000000000
+      internalID: -855231047471489811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite takaa_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 5
+        width: 115
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ae8fc2907021be0800000000000000
+      internalID: -1508135189225084394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite takaa_2
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 3
+        width: 115
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfe477506be17900800000000000000
+      internalID: 680583817726324688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite takaa_3
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1
+        width: 115
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad94e2d3bfee5680800000000000000
+      internalID: -8764304269200024149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite takaa_4
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 3
+        width: 115
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a9b2d2ab05b08b0800000000000000
+      internalID: -5184961785435022713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite takaa_5
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 4
+        width: 115
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad96c5e0d368365b0800000000000000
+      internalID: -5376305933358175782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
