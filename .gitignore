@@ -45,3 +45,4 @@ PunkinParty2/Logs/AssetImportWorker0.log
 *.log
 *.log
 PunkinParty2/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+*.asset
