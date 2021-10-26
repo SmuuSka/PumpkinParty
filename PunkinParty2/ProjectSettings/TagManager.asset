@@ -61,6 +61,6 @@ TagManager:
   - name: Player
     uniqueID: 344203681
     locked: 0
-  - name: Puzzle
+  - name: Health
     uniqueID: 981185935
     locked: 0
