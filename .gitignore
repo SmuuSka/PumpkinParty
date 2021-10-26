@@ -43,6 +43,11 @@ PunkinParty2/Logs/AssetImportWorker0.log
 *.log
 *.log
 *.log
+<<<<<<< HEAD
+PunkinParty2/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+=======
+*.log
+>>>>>>> ec49d077589ed2095668eeb3b5d75357dcb6deec
 *.log
 PunkinParty2/Logs/shadercompiler-UnityShaderCompiler.exe0.log
 *.asset
