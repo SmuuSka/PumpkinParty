@@ -64,3 +64,6 @@ TagManager:
   - name: Health
     uniqueID: 981185935
     locked: 0
+  - name: Enemy
+    uniqueID: 1898874757
+    locked: 0
