@@ -9,7 +9,7 @@ public class EnemySpawnerScript : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(1))
         {
-           var enemy = Instantiate(enemyPrefab, gameObject.transform.position,Quaternion.identity);
+           var enemy = Instantiate(enemyPrefab, new Vector3(transform.position.x, transform.position.y -0.75f),Quaternion.identity);
             Destroy(enemy, 5f);
         }
         
