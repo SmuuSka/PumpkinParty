@@ -43,20 +43,23 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Flat
-    uniqueID: 416726137
+  - name: Fence
+    uniqueID: 105707617
     locked: 0
   - name: Ground
     uniqueID: 842329865
     locked: 0
-  - name: Fence
-    uniqueID: 105707617
+  - name: Pilars
+    uniqueID: 416726137
     locked: 0
   - name: UP_2
     uniqueID: 4220469645
     locked: 0
   - name: MapCollider
     uniqueID: 2140677891
+    locked: 0
+  - name: FenceLow
+    uniqueID: 4059250531
     locked: 0
   - name: Player
     uniqueID: 344203681
@@ -66,4 +69,7 @@ TagManager:
     locked: 0
   - name: Enemy
     uniqueID: 1898874757
+    locked: 0
+  - name: FenceTop
+    uniqueID: 2148680651
     locked: 0
