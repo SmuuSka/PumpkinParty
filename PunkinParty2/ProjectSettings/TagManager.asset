@@ -46,11 +46,11 @@ TagManager:
   - name: FenceTop_1
     uniqueID: 3875043801
     locked: 0
+  - name: PathFence_1
+    uniqueID: 1660420751
+    locked: 0
   - name: Path
     uniqueID: 698790983
-    locked: 0
-  - name: PathFence
-    uniqueID: 1260114027
     locked: 0
   - name: FenceTop
     uniqueID: 105707617
@@ -63,6 +63,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 344203681
+    locked: 0
+  - name: PathFence
+    uniqueID: 1260114027
     locked: 0
   - name: Health
     uniqueID: 981185935
