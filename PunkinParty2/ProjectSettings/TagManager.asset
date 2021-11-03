@@ -43,45 +43,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: FenceTop_1
-    uniqueID: 3875043801
-    locked: 0
-  - name: PathFence_1
-    uniqueID: 1660420751
-    locked: 0
-  - name: Path
-    uniqueID: 698790983
-    locked: 0
-  - name: FenceTop
-    uniqueID: 105707617
-    locked: 0
-  - name: FenceLeft
-    uniqueID: 3444431499
-    locked: 0
   - name: Ground
-    uniqueID: 842329865
+    uniqueID: 528387761
+    locked: 0
+  - name: Fences
+    uniqueID: 1731920957
     locked: 0
   - name: Player
     uniqueID: 344203681
     locked: 0
-  - name: PathFence
+  - name: Health
     uniqueID: 1260114027
     locked: 0
-  - name: Health
-    uniqueID: 981185935
-    locked: 0
-  - name: FenceRight
-    uniqueID: 3289095289
-    locked: 0
-  - name: Ground_2
-    uniqueID: 2859465509
-    locked: 0
-  - name: FenceLeft_1
-    uniqueID: 315408683
-    locked: 0
-  - name: FenceLow
-    uniqueID: 3167307631
-    locked: 0
   - name: Enemy
-    uniqueID: 1898874757
+    uniqueID: 2581973203
     locked: 0
