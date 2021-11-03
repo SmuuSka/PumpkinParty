@@ -55,6 +55,15 @@ TagManager:
   - name: Player
     uniqueID: 344203681
     locked: 0
+  - name: FenceLow
+    uniqueID: 3167307631
+    locked: 0
+  - name: FenceRight
+    uniqueID: 3289095289
+    locked: 0
+  - name: FenceLow
+    uniqueID: 2007447183
+    locked: 0
   - name: Health
     uniqueID: 981185935
     locked: 0
