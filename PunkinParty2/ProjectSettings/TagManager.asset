@@ -58,3 +58,9 @@ TagManager:
   - name: Enemy
     uniqueID: 2581973203
     locked: 0
+  - name: Collider_low
+    uniqueID: 1684976839
+    locked: 0
+  - name: Collider_top
+    uniqueID: 406190345
+    locked: 0
