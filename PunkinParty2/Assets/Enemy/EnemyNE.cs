@@ -24,18 +24,4 @@ public class EnemyNE : MonoBehaviour
         direction = new Vector3(1f, 0.5f);
         transform.position += direction * moveSpeed * Time.deltaTime;
     }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.attachedRigidbody.CompareTag("Player"))
-        {
-            Debug.Log("Osuma");
-            Destroy(gameObject);
-        }
-    }
-
-    private void DoDamage()
-    {
-
-    }
 }

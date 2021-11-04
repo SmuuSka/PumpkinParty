@@ -24,6 +24,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sivuhahmo_NE
       objectReference: {fileID: 0}
+    - target: {fileID: 3242419580711503625, guid: 438c09cf19d08e347a0323293acca0a8, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 8936253968539554787, guid: 438c09cf19d08e347a0323293acca0a8, type: 3}
       propertyPath: m_RootOrder
       value: 0

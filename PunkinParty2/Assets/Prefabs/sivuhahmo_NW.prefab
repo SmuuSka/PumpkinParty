@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sivuhahmo_NW
       objectReference: {fileID: 0}
+    - target: {fileID: 6927868712399140585, guid: 9bed858804b86644dbe94fda1cf5f79e, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8699231157487622248, guid: 9bed858804b86644dbe94fda1cf5f79e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9bed858804b86644dbe94fda1cf5f79e, type: 3}

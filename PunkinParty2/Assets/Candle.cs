@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Candle : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class Candle : MonoBehaviour
 
     private void Start()
     {
-        health = 3;
+        health = 2;
     }
 
     private void Update()
@@ -20,30 +21,24 @@ public class Candle : MonoBehaviour
 
     public void Health()
     {
-        if (health == 3)
+        if (health == 2)
         {
             candleIcons[0].enabled = true;
             candleIcons[1].enabled = false;
             candleIcons[2].enabled = false;
         }
-        else if (health == 2)
+        else if (health == 1)
         {
             candleIcons[0].enabled = false;
             candleIcons[1].enabled = true;
             candleIcons[2].enabled = false;
         }
-        else if (health == 1)
-        {
-            candleIcons[0].enabled = false;
-            candleIcons[1].enabled = false;
-            candleIcons[2].enabled = true;
-        }
         else if (health == 0)
         {
             candleIcons[0].enabled = false;
             candleIcons[1].enabled = false;
-            candleIcons[2].enabled = false;
+            candleIcons[2].enabled = true;
+            SceneManager.LoadScene(0);
         }
     }
-
 }
