@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 
-public class Enemy : MonoBehaviour
+public class EnemyNW : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
     private Rigidbody2D enemyRb;
@@ -22,7 +21,7 @@ public class Enemy : MonoBehaviour
 
     private void GetMovementDirection()
     {
-        direction = new Vector3(1f, -0.5f);
+        direction = new Vector3(-1f, 0.5f);
         transform.position += direction * moveSpeed * Time.deltaTime;
     }
 

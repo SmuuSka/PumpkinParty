@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1757368303359686640}
   - component: {fileID: 1943756518435940162}
-  - component: {fileID: 1386247874739288074}
   m_Layer: 0
   m_Name: testi
   m_TagString: Untagged
@@ -69,8 +68,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1898874757
-  m_SortingLayer: 8
+  m_SortingLayerID: 1731920957
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 65ef21b68e79b6e479a4de165d342c73, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -83,16 +82,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1386247874739288074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 451815077115122085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52b623306a56dbd4a8de36873f40c07d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 5266878020418029192, guid: 12757cdb86de7ea43a3a3a2716b45ffb, type: 3}
