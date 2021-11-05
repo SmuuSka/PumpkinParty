@@ -17,7 +17,7 @@ TagManager:
   - Puzzle
   - Player
   - Enemy
-  - 
+  - Minimap
   - 
   - 
   - 
@@ -43,27 +43,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Flat
-    uniqueID: 416726137
-    locked: 0
   - name: Ground
-    uniqueID: 842329865
+    uniqueID: 528387761
     locked: 0
-  - name: UP_1
-    uniqueID: 105707617
-    locked: 0
-  - name: UP_2
-    uniqueID: 4220469645
-    locked: 0
-  - name: MapCollider
-    uniqueID: 2140677891
+  - name: Fences
+    uniqueID: 1731920957
     locked: 0
   - name: Player
     uniqueID: 344203681
     locked: 0
   - name: Health
-    uniqueID: 981185935
+    uniqueID: 1260114027
     locked: 0
   - name: Enemy
-    uniqueID: 1898874757
+    uniqueID: 2581973203
+    locked: 0
+  - name: Collider_low
+    uniqueID: 1684976839
+    locked: 0
+  - name: Collider_top
+    uniqueID: 406190345
     locked: 0
