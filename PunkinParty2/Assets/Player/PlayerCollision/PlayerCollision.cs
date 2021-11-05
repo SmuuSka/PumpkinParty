@@ -15,10 +15,16 @@ public class PlayerCollision : MonoBehaviour
         if (other.tag == "Enemy")
         {
             TakeDamage();
+            Destroy(other.gameObject);
+            Debug.Log("Osuma");
         }
         else if (other.tag == "Health")
         {
             MoreHealth();
+        }
+        else if (other.tag == "Friend")
+        {
+            Debug.Log("Hey Eli!");
         }
     }
     private void TakeDamage()

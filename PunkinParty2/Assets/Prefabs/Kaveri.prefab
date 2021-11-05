@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &907177193777551080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8339923365635410596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 386a737ac33a50940b5e27ba53af51a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 1
 --- !u!1001 &6864118535685754285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22,23 +9,43 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3242419580711503625, guid: 438c09cf19d08e347a0323293acca0a8, type: 3}
       propertyPath: m_Name
-      value: sivuhahmo_NE
+      value: Kaveri
       objectReference: {fileID: 0}
     - target: {fileID: 3242419580711503625, guid: 438c09cf19d08e347a0323293acca0a8, type: 3}
       propertyPath: m_TagString
-      value: Enemy
+      value: Friend
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474213190845844430, guid: 438c09cf19d08e347a0323293acca0a8, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6165444436735939270, guid: 438c09cf19d08e347a0323293acca0a8, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6451736711646701917, guid: 438c09cf19d08e347a0323293acca0a8, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8936253968539554787, guid: 438c09cf19d08e347a0323293acca0a8, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8936253968539554787, guid: 438c09cf19d08e347a0323293acca0a8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8936253968539554787, guid: 438c09cf19d08e347a0323293acca0a8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8936253968539554787, guid: 438c09cf19d08e347a0323293acca0a8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -4.1363997
       objectReference: {fileID: 0}
     - target: {fileID: 8936253968539554787, guid: 438c09cf19d08e347a0323293acca0a8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -19.130909
       objectReference: {fileID: 0}
     - target: {fileID: 8936253968539554787, guid: 438c09cf19d08e347a0323293acca0a8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -76,8 +83,3 @@ PrefabInstance:
     - {fileID: 3774641196048853384, guid: 438c09cf19d08e347a0323293acca0a8, type: 3}
     - {fileID: 9089548312450142302, guid: 438c09cf19d08e347a0323293acca0a8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 438c09cf19d08e347a0323293acca0a8, type: 3}
---- !u!1 &8339923365635410596 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3242419580711503625, guid: 438c09cf19d08e347a0323293acca0a8, type: 3}
-  m_PrefabInstance: {fileID: 6864118535685754285}
-  m_PrefabAsset: {fileID: 0}
