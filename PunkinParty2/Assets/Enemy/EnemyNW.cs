@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyNW : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed;
+    public float moveSpeed;
     private Rigidbody2D enemyRb;
 
     private Vector3 direction;
