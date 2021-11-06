@@ -19,7 +19,7 @@ public class PauseMenu : MonoBehaviour
 
     private void Update()
     {
-        map.transform.position = playerRefe.transform.position;
+        //map.transform.position = playerRefe.transform.position;
         mapButtonOn.onClick.AddListener(MapOn);
         mapButtonOff.onClick.AddListener(MapOff);
     }
