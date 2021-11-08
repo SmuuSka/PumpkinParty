@@ -5,7 +5,7 @@ using UnityEngine.Tilemaps;
 
 public class EnemySE : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed;
+    public float moveSpeed;
     private Rigidbody2D enemyRb;
 
     private Vector3 direction;

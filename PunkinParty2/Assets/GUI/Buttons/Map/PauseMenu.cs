@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MapScript : MonoBehaviour
+public class PauseMenu : MonoBehaviour
 {
     [SerializeField] private GameObject map;
     [SerializeField] private Button mapButtonOn, mapButtonOff;
@@ -19,7 +19,7 @@ public class MapScript : MonoBehaviour
 
     private void Update()
     {
-        map.transform.position = playerRefe.transform.position;
+        //map.transform.position = playerRefe.transform.position;
         mapButtonOn.onClick.AddListener(MapOn);
         mapButtonOff.onClick.AddListener(MapOff);
     }
@@ -31,6 +31,7 @@ public class MapScript : MonoBehaviour
         mapButtonOn.gameObject.SetActive(false);
         mapButtonOff.gameObject.SetActive(true);
         playerRefe.GetComponent<PlayerMoveController>().canMove = false;
+        PauseGame();
     }
     private void MapOff()
     {
@@ -39,5 +40,15 @@ public class MapScript : MonoBehaviour
         mapButtonOn.gameObject.SetActive(true);
         mapButtonOff.gameObject.SetActive(false);
         playerRefe.GetComponent<PlayerMoveController>().canMove = true;
+        ResumeGame();
+    }
+    void PauseGame()
+    {
+        Time.timeScale = 0;
+    }
+
+    void ResumeGame()
+    {
+        Time.timeScale = 1;
     }
 }

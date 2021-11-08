@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 833454638716139838}
   - component: {fileID: 7292321652793812155}
   - component: {fileID: 7116303371872618478}
-  - component: {fileID: 4945728101450046445}
   - component: {fileID: -7353890674140531052}
   m_Layer: 0
   m_Name: haamu nw 1
@@ -99,32 +98,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
---- !u!61 &4945728101450046445
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 955028301597704816}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.082196474, y: -0.105106354}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.56, y: 2.56}
-    newSize: {x: 2.56, y: 2.56}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.6511426, y: 0.66669655}
-  m_EdgeRadius: 0
 --- !u!50 &-7353890674140531052
 Rigidbody2D:
   serializedVersion: 4
@@ -156,9 +129,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3535079142846243924}
   - component: {fileID: 9046471276540722957}
-  m_Layer: 0
+  - component: {fileID: 6027140157148275263}
+  m_Layer: 11
   m_Name: Circle (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -228,3 +202,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &6027140157148275263
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5084913058417353978}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1, y: 1.01}
+  m_Direction: 1

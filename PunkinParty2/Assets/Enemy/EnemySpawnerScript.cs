@@ -41,6 +41,7 @@ public class EnemySpawnerScript : MonoBehaviour
         int i = Random.Range(0, spawnerSE.Length);
         //var enemy = Instantiate(enemyPrefab, new Vector3(transform.position.x, transform.position.y -0.75f),Quaternion.identity);
         var enemy = Instantiate(enemyPrefabSE, new Vector3(spawnerSE[i].transform.position.x, spawnerSE[i].transform.position.y - 0.75f), Quaternion.identity);
+        enemy.GetComponent<EnemySE>().moveSpeed = Random.Range(1, 4);
         Destroy(enemy, 20f);
     }
 
@@ -49,6 +50,7 @@ public class EnemySpawnerScript : MonoBehaviour
         int i = Random.Range(0, spawnerSW.Length);
         //var enemy = Instantiate(enemyPrefab, new Vector3(transform.position.x, transform.position.y -0.75f),Quaternion.identity);
         var enemy = Instantiate(enemyPrefabSW, new Vector3(spawnerSW[i].transform.position.x, spawnerSW[i].transform.position.y - 0.75f), Quaternion.identity);
+        enemy.GetComponent<EnemySW>().moveSpeed = Random.Range(1, 4);
         Destroy(enemy, 20f);
     }
     private void SpawnEnemyNW()
@@ -56,6 +58,7 @@ public class EnemySpawnerScript : MonoBehaviour
         int i = Random.Range(0, spawnerNW.Length);
         //var enemy = Instantiate(enemyPrefab, new Vector3(transform.position.x, transform.position.y -0.75f),Quaternion.identity);
         var enemy = Instantiate(enemyPrefabNW, new Vector3(spawnerNW[i].transform.position.x, spawnerNW[i].transform.position.y - 0.75f), Quaternion.identity);
+        enemy.GetComponent<EnemyNW>().moveSpeed = Random.Range(1, 4);
         Destroy(enemy, 20f);
     }
     private void SpawnEnemyNE()
@@ -63,6 +66,7 @@ public class EnemySpawnerScript : MonoBehaviour
         int i = Random.Range(0, spawnerNE.Length);
         //var enemy = Instantiate(enemyPrefab, new Vector3(transform.position.x, transform.position.y -0.75f),Quaternion.identity);
         var enemy = Instantiate(enemyPrefabNE, new Vector3(spawnerNE[i].transform.position.x, spawnerNE[i].transform.position.y - 0.75f), Quaternion.identity);
+        enemy.GetComponent<EnemyNE>().moveSpeed = Random.Range(1, 4);
         Destroy(enemy, 20f);
     }
 }

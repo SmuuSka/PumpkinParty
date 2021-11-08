@@ -33,10 +33,7 @@ public class PlayerCollision : MonoBehaviour
         {
             candleLight.pointLightOuterRadius -= 5f;
             playerHealth.health -= 1;
-        }
-        else
-        {
-            Debug.Log("Youre dead");
+            playerHealth.candleTimer = 60f;
         }
     }
     private void MoreHealth()
@@ -44,7 +41,17 @@ public class PlayerCollision : MonoBehaviour
         if (playerHealth.health > 0 && playerHealth.health < 3)
         {
             playerHealth.health += 1;
+            playerHealth.candleTimer += 60f;
             candleLight.pointLightOuterRadius += 5f;
+        }
+    }
+    public void TimeRunning()
+    {
+        if (playerHealth.health > 0 && playerHealth.health < 3)
+        {
+            playerHealth.health -= 1;
+            candleLight.pointLightOuterRadius -= 5f;
+
         }
     }
 }
